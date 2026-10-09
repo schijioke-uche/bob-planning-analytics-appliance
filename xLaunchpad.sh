@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
+
+# Author: Dr. Jeffrey Chijioke-Uche, Ph.D - IBM Computer Scientist.
+
 set -Eeuo pipefail
 ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
 for TREE in use-cases use-case; do
-  if [[ -f "$ROOT/$TREE/planning-analytics/xLaunchpad.sh" ]]; then
-    exec bash "$ROOT/$TREE/planning-analytics/xLaunchpad.sh" "$@"
+  if [[ -f "$ROOT/$TREE/planning-analytics/iLaunchpad.sh" ]]; then
+    exec bash "$ROOT/$TREE/planning-analytics/iLaunchpad.sh" "$@"
   fi
 done
-printf '%s\n' 'PAA launchpad not found. Run bash maintenance.sh first.' >&2
+printf '%s\n' 'PAA launchpad not found. Run bash maintenance.sh first or Check the Use-Cases directory for iLauchpad file.' >&2
 exit 2

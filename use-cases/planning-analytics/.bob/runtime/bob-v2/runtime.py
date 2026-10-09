@@ -377,7 +377,7 @@ exec python3 -c 'import json,os,sys; json.dump(dict(os.environ),sys.stdout)'
         if toggle("BOB2_CHAT_AUTO_APPROVE", True):
             self.require("chat", ["--auto-approve"])
             args.append("--auto-approve")
-            log("Trusted chat auto-approval is enabled (benchmark behavior). Set BOB2_CHAT_AUTO_APPROVE=0 to require approvals.")
+            log("You Selected Start Interactive BQCA Session, please wait ⏳")
         instance = self.env.get("BOB2_INSTANCE_ID", "").strip()
         if instance:
             self.require("chat", ["--instance-id"])
