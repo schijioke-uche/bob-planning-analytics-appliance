@@ -1,0 +1,124 @@
+ Search IBM Watsonx documentation (completed)
+ {
+   "results": [
+     {
+       "query": "watsonx Orchestrate deployment strategies SaaS Software Hub OpenShift promote environments",
+       "results": [
+         {
+           "id": "01299_customizing-runtimes-with-external-libraries-and-packages.md_chunk_2",
+           "score": 22.45628,
+           "content": "To export custom software specifications and package extensions that were created in a watsonx.ai Studio project to a
+ deployment space:\n\n1. From your project interface, click the **Manage** tab.\n\n2. Select **Environments**.\n\n3. Click the **Templates**
+ tab.\n\n4. From your custom environment's **Options** menu, select **Promote to space**.\n\n\u003cimg
+ src=\"images/promote-custom-env-from-ws.png\" alt=\"Selecting \u0026quot;Promote to space\u0026quot; for a custom environment in watsonx.ai Studio
+  interface\"\u003e\n\nAlternatively, when you promote any model or Python function that is associated with a custom environment from a watsonx.ai
+ Studio project to a deployment space, the associated custom software specification and package extension is also promoted to the deployment
+ space.\n\nIf you want to update software specifications and package extensions after you promote them to deployment space, follow these
+ steps:\n\n1. In the deployment space, delete the software specifications, package extensions, and associated models (optional) by using the
+ watsonx.ai Python client.\n\n2. In a project, promote the model, function, or script that is associated with the changed custom software
+ specification and package extension to the space.\n\nSoftware specifications are also included when you import a project or space that includes
+ one.",
+           "metadata": {
+             "section_path": "Customizing runtimes with external libraries and packages \u003e Defining customizations in a watsonx.ai Studio
+ project and then promoting them to a deployment space \u003e Propagating software specifications and package extensions from projects to
+ deployment spaces"
+           },
+           "rerank_score": 0.9038049
+         },
+         {
+           "id": "00173_feature-differences-between-ibm-watsonx-deployments.md_chunk_7",
+           "score": 28.532986,
+           "content": "Most features and capabilities of watsonx.governance as a Service are effectively the same for watsonx.governance software
+ versions 2.4 and 2.3.\n\nThe following table describes the feature differences between the watsonx.governance service on as-a-service deployment
+ environments and the watsonx.governance service on the IBM Software Hub software deployment environment.\n\n**Feature differences between
+ watsonx.governance deployments**\n\n| Feature | IBM Cloud | AWS | AWS GovCloud | Software on IBM Software Hub |\n| --- | --- | --- | --- | ---
+ |\n| Integrate Governance console with AWS (Amazon SageMaker) | ✓ | ✓ |  | ✓ |\n| IBM SPSS Collaboration and Deployment Services |  |  |  | ✓ |\n|
+  Batch processing |  |  |  | ✓ |\n| Free database and Postgres plans | ✓ |  |  | ✓ |\n| Set up multiple instances |  |  |  | ✓ |\n| Governance
+ graph |  | ✓ |  |  |\n| Guardrails Manager | ✓ |  |  | ✓ |\n| Content Safety Detector Testing UI | ✓ |  |  | ✓ |\n| Custom guardrails support (API
+  only) | ✓ |  |  | ✓ |\n| Evaluate agentic applications in Evaluation Studio | ✓ | ✓ |  | ✓ |\n| Monitor watsonx Orchestrate agents | ✓ |  |  |
+ |\n| Governed agentic catalog | ✓ | ✓ |  | ✓ |\n| Evaluate Chat prompt templates | ✓ | ✓ |  | ✓ |\n| Record-level metrics view for custom metrics
+ | ✓ | ✓ |  | ✓ |\n| Manage models in inventories | ✓ | ✓ |  | ✓ |\n| Synchronize model groups from Governance console |  |  |  | ✓ |",
+           "metadata": {
+             "section_path": "Feature differences between IBM watsonx deployments \u003e watsonx.governance"
+           },
+           "rerank_score": 0.8716935
+         },
+         {
+           "id": "00173_feature-differences-between-ibm-watsonx-deployments.md_chunk_8",
+           "score": 19.153097,
+           "content": "- [IBM Cloud services](services.html)\n\n- [IBM watsonx.ai and IBM watsonx.governance 2.4
+ documentation](https://www.ibm.com/docs/SSLSRPV_2.4.x)\n\n- [Services for IBM Software Hub
+ 5.4](https://www.ibm.com/docs/SSNFH6_5.4.x/svc-nav/head/services.html)\n\n- [Cloud deployment environment options for IBM Software Hub
+ 5.4](https://www.ibm.com/docs/SSNFH6_5.4.x/hub/plan/deployment-environments.html)",
+           "metadata": {
+             "section_path": "Feature differences between IBM watsonx deployments \u003e Learn more"
+           },
+           "rerank_score": 0.65555656
+         },
+         {
+           "id": "00173_feature-differences-between-ibm-watsonx-deployments.md_chunk_1",
+           "score": 22.246792,
+           "content": "IBM watsonx as a Service and the IBM watsonx experience software share a common code base, however, they differ in the
+ following key ways:\n\n**Platform differences**\n\n| Features | As a service | Software |\n| --- | --- | --- |\n| Software, hardware, and
+ installation | IBM watsonx is fully managed by IBM on IBM Cloud.\n\nSoftware updates are automatic.\n\nScaling of compute resources and storage is
+  automatic.\n\nYou sign up at [Try IBM watsonx.ai](https://dataplatform.cloud.ibm.com/registration/stepone?context=wx).\n\n| You provide and
+ maintain hardware.\n\nYou install, maintain, and upgrade the software.\n\nSee [Software
+ requirements](https://www.ibm.com/docs/SSNFH6_5.4.x/sys-reqs/overview-sys-reqs.html).\n\n|\n| Storage | You provision a IBM Cloud Object Storage
+ service instance to provide storage.\n\nSee [IBM Cloud Object Storage service](services.html#cos).\n\n| You provide persistent storage on a Red
+ Hat OpenShift cluster.\n\nSee [Storage requirements](https://www.ibm.com/docs/SSNFH6_5.4.x/sys-reqs/storage-requirements.html).\n\n|\n| Compute
+ resources for running workloads | Users choose the appropriate runtime for their jobs.\n\nCompute usage is billed based on the rate for the
+ runtime environment and the duration of the job.\n\nSee [Monitor account resource usage](../admin/monitor-resources.html).\n\n| You set up the
+ number of Red Hat OpenShift nodes with the appropriate number of vCPUs.\n\nSee [Hardware
+ requirements](https://www.ibm.com/docs/SSNFH6_5.4.x/sys-reqs/hardware-reqs.html) and [Monitoring the
+ platform](https://www.ibm.com/docs/SSNFH6_5.4.x/hub/admin/platform-management.html).\n\n|\n| Cost | You buy each service that you need at the
+ appropriate plan level.\n\nMany services bill for compute and other resource consumption.\n\nSee each service page in the [IBM Cloud
+ catalog](https://cloud.ibm.com/catalog) or in the services catalog on IBM watsonx, by selecting **Administration \u003e Services \u003e Services
+ catalog** from the navigation menu.\n\n| You buy a software license based on the services that you need.\n\nSee [Licenses and
+ entitlements](https://www.ibm.com/docs/SSNFH6_5.4.x/hub/plan/licenses-entitlements.html).\n\n|\n| Security, compliance, and isolation | The data
+ security, network security, security standards compliance, and isolation of IBM watsonx are managed by IBM Cloud.\n\nYou can set up extra security
+  and encryption options.\n\nSee [Security of IBM watsonx](security-overview.html).\n\n| Red Hat OpenShift Container Platform provides basic
+ security features.\n\nCloud Pak for Data is assessed for various Privacy and Compliance regulations and provides features that you can use in
+ preparation for various privacy and compliance assessments.",
+           "metadata": {
+             "section_path": "Feature differences between IBM watsonx deployments \u003e Platform differences"
+           },
+           "rerank_score": 0.57934093
+         },
+         {
+           "id": "00173_feature-differences-between-ibm-watsonx-deployments.md_chunk_6",
+           "score": 21.342659,
+           "content": "Most features and capabilities of watsonx.ai Runtime as a Service are effectively the same for watsonx.ai Runtime software,
+ versions 2.4, 2.3, and 2.2.\n\nThe watsonx.ai Runtime service is available on the following cloud as-a-service deployment environments:\n\n- IBM
+ Cloud: See [IBM Cloud services](services.html).\n\n- AWS Commercial: See [AWS services](../admin/svc-aws.html).\n\n- AWS GovCloud: See [AWS
+ GovCloud services](govcloud.html).\n\nThe following table describes the feature differences between the watsonx.ai Runtime service on as-a-service
+  deployment environments and the watsonx.ai Runtime service plus additional services on the IBM Software Hub software deployment
+ environment.\n\n**Feature differences between watsonx.ai Runtime deployments**\n\n| Feature | IBM Cloud | AWS | AWS GovCloud | Software on IBM
+ Software Hub |\n| --- | --- | --- | --- | --- |\n| AutoAI | ✓ | ✓ |  | ✓ |\n| Custom foundation models | ✓ | ✓ |  | ✓ |\n| Deploy on demand
+ foundation models | ✓ | ✓ |  |  |\n| Deploy ML with popular frameworks and software specifications | ✓ | ✓ |  | ✓ |\n| Connect to databases for
+ batch deployments | ✓ | ✓ |  | ✓ |\n| Create deployment spaces | ✓ | ✓ |  | ✓ |\n| Deploy and score Python scripts | ✓ | ✓ |  | ✓ |\n| Deploy and
+ batch score R Scripts |  |  |  | ✓ |\n| Deploy Shiny apps |  |  |  | ✓ |\n| Control deployment space creation |  |  |  | ✓ |\n| Import from GIT
+ project to space |  |  |  | ✓ |\n| Code package automatically created when importing from Git project to space |  |  |  | ✓ |\n| Update RShiny app
+  from code package |  |  |  | ✓ |\n| Create and use custom images |  |  |  | ✓ |\n| Notify collaborators about Pipeline events |  |  |  | ✓ |\n|
+ Deep Learning Experiments |  |  |  | ✓ |",
+           "metadata": {
+             "section_path": "Feature differences between IBM watsonx deployments \u003e watsonx.ai Runtime"
+           },
+           "rerank_score": 0.5519059
+         },
+         {
+           "id": "00173_feature-differences-between-ibm-watsonx-deployments.md_chunk_0",
+           "score": 19.296705,
+           "content": "The IBM watsonx experience on IBM Cloud and on IBM Software Hub software has some differences in features and
+ implementation. IBM watsonx as a Service is a set of cloud platform services. The IBM watsonx 2.4 services on IBM Software Hub 5.4 are offered as
+ software that you must install and maintain. Services that are available on both deployments also have differences in features on IBM watsonx as a
+  Service compared to IBM watsonx 2.4, 2.3, and 2.2.\n\n- [Platform differences](#platform)\n\n- [Common features across services](#common)\n\n-
+ [watsonx.ai Studio](#ws)\n\n- [watsonx.ai Runtime](#wml)\n\n- [watsonx.governance](#wxgov)",
+           "metadata": {
+             "section_path": "Feature differences between IBM watsonx deployments"
+           },
+           "rerank_score": 0.4112291
+         }
+       ]
+     }
+   ]
+ }

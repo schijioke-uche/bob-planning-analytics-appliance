@@ -1,0 +1,1668 @@
+{
+  "informational_only": true,
+  "loaded_by_maintenance_or_runtime": false,
+  "files": [
+    {
+      "path": "BUILD-REPORT.md",
+      "bytes": 5848,
+      "sha256": "c2e1abe4244bb01c06d4a2430abf137e460192f2dbb1d142620a9fc8546eb370",
+      "mode": "0o644"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10875,
+      "sha256": "58355e950ee3019ca632b1ae934c7c5aa1dbc2400312a61d9a079271561c8a26",
+      "mode": "0o644"
+    },
+    {
+      "path": "MODES-AND-CAPABILITIES.md",
+      "bytes": 3055,
+      "sha256": "20ab0154d41ae3eb58fcad5f720b95f9831cb6f761337abbfe617984b9327e9f",
+      "mode": "0o644"
+    },
+    {
+      "path": "PROJECT-MEMORY.md",
+      "bytes": 1123,
+      "sha256": "5bd8b2e0be24eac35f6580b625118170b9d79613185b59c2d31cfe951e7dca69",
+      "mode": "0o644"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6198,
+      "sha256": "e5e49fcfc7f0036d399e13086b37e94323ac568648b8bd7f9663856609742f85",
+      "mode": "0o644"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 38,
+      "sha256": "a9d439ca3a3ea141b6556b044ee8d368314d1f69bea3c813839c0ae53e7c42e8",
+      "mode": "0o644"
+    },
+    {
+      "path": "audit/build-inventory.json",
+      "bytes": 410,
+      "sha256": "80339222a7a48bf07bd7bc0b5c9b8a0268fdeef6386d775dc304d049ceef90d1",
+      "mode": "0o644"
+    },
+    {
+      "path": "audit/credential-scan.json",
+      "bytes": 201,
+      "sha256": "800b6c7a07151f9b2a5661e0ea88221e99b08a9f9761854782d479deccdde12a",
+      "mode": "0o644"
+    },
+    {
+      "path": "audit/offline-test-results.json",
+      "bytes": 41962,
+      "sha256": "5bcd5b7326c017c37222e0b0932d1c57fd1ca6e5cbe12f427d7ae4ffd8a3720b",
+      "mode": "0o644"
+    },
+    {
+      "path": "audit/policy-coverage.json",
+      "bytes": 5392,
+      "sha256": "037b76e19f5642d1d1e6873a2bd25e31fa71f75ce868e0deec44964dd565309c",
+      "mode": "0o644"
+    },
+    {
+      "path": "audit/reported-error-reproduction.json",
+      "bytes": 638,
+      "sha256": "e87cf87c12ed8f7a8328396ff529041f1492c9d37e4190d686bbd4394abe6c78",
+      "mode": "0o644"
+    },
+    {
+      "path": "audit/runtime-lineage.json",
+      "bytes": 3078,
+      "sha256": "7890d5031af98f90d3ca3f443a50037c12764455e04c18626353217cdd48447f",
+      "mode": "0o644"
+    },
+    {
+      "path": "audit/skill-validation.json",
+      "bytes": 3714,
+      "sha256": "3dfab72a6148c34394b72b6eea172612ab4bba0738ce85ec89cbf83f8ee7c8fd",
+      "mode": "0o644"
+    },
+    {
+      "path": "audit/syntax-checks.json",
+      "bytes": 3505,
+      "sha256": "f24c2bf848139ae1430d5f992cf92138dd393af7e9408e9e1e9c378a6cda68c1",
+      "mode": "0o644"
+    },
+    {
+      "path": "audit/ui-cyan.ansi",
+      "bytes": 977,
+      "sha256": "373ae0f8d0a08a7c7f629252dafa39fb1a2195bc0775ebaff0557410890449d0",
+      "mode": "0o644"
+    },
+    {
+      "path": "audit/ui-menu.ansi",
+      "bytes": 1595,
+      "sha256": "023e6da9f34b6524ece4e75a1632e3b98036a7df9729ccec96462459511784ef",
+      "mode": "0o644"
+    },
+    {
+      "path": "docs/CYAN-PREVIEW.png",
+      "bytes": 35641,
+      "sha256": "12045a7726e8d79afc2e7e1915fdf16a17e8126b5449c80227ae6106075fcf69",
+      "mode": "0o644"
+    },
+    {
+      "path": "docs/MENU-PREVIEW.png",
+      "bytes": 39996,
+      "sha256": "bdeb8e59a9aff1032bbcafb6abb7d219e62312fe8b0f2cad212393af4e09f79d",
+      "mode": "0o644"
+    },
+    {
+      "path": "maintenance.sh",
+      "bytes": 287,
+      "sha256": "941da327452065e390220982f7d9ceadd635c2d08b2138bf9d12e2f32b880c48",
+      "mode": "0o755"
+    },
+    {
+      "path": "paa-self-check.sh",
+      "bytes": 151,
+      "sha256": "c224f55fbfd929cf89d54d5580984792c32d3adcfaf9e403c3e744de6717f131",
+      "mode": "0o755"
+    },
+    {
+      "path": "paa-ui-check.sh",
+      "bytes": 151,
+      "sha256": "5493c595ce4b11cc17aa9663854b49336ff1b389c1bb07d4e7664e64bf4e78f7",
+      "mode": "0o755"
+    },
+    {
+      "path": "patches/PAA/README.md",
+      "bytes": 948,
+      "sha256": "15cc0ee9b241df538c7015936b757e58f6c0a88bce0d84e6f9d3f62bbce1e0d1",
+      "mode": "0o644"
+    },
+    {
+      "path": "patches/PAA/install.py",
+      "bytes": 9412,
+      "sha256": "bae068aa5ef06930f16b881e51ebd5a885f3f113e57ba25108bfa96618306511",
+      "mode": "0o755"
+    },
+    {
+      "path": "patches/PAA/patch-PAA-3.sh",
+      "bytes": 181,
+      "sha256": "8a9b2dd94f87b1447ddee69cd5cdcac47beca1355804fda29c71279101161cfb",
+      "mode": "0o755"
+    },
+    {
+      "path": "patches/PAA/payload/planning-analytics.zip",
+      "bytes": 495901,
+      "sha256": "a9e6038eb225538f71f62fb69e151d3689c45635695a259bdad3803b2a623262",
+      "mode": "0o644"
+    },
+    {
+      "path": "tests/README.md",
+      "bytes": 576,
+      "sha256": "314c013b486b72e8b2f3b395c4e131690c04dc0479abc1d5f6908d1541e05743",
+      "mode": "0o644"
+    },
+    {
+      "path": "tests/browse-output-fixture.txt",
+      "bytes": 14910,
+      "sha256": "2c9b8b38b4a28f503a36d159a596abc2d22c7d1b320e59e1c75d80e73e573e73",
+      "mode": "0o644"
+    },
+    {
+      "path": "tests/config/PAA.json",
+      "bytes": 4570,
+      "sha256": "a60ad52cde3b46fa418466ec8b661be90204818fbbe08a1e56a74f81694a07fd",
+      "mode": "0o644"
+    },
+    {
+      "path": "tests/expected-menu.sh",
+      "bytes": 4512,
+      "sha256": "b9a4554c35ebd4e998bfed9b90b97b68478931b36b89b154209474995cd4164f",
+      "mode": "0o755"
+    },
+    {
+      "path": "tests/fake-bob.py",
+      "bytes": 7565,
+      "sha256": "030a4c47d6408f99b9cd9bbe59e8e0dbf231ab296f682a8c295bc088df8d41b8",
+      "mode": "0o755"
+    },
+    {
+      "path": "tests/run-tests.sh",
+      "bytes": 176,
+      "sha256": "74ee53c224e02693df2ea193e2b51398584ab4764fcab4d545551514c658f6b7",
+      "mode": "0o755"
+    },
+    {
+      "path": "tests/search-output-fixture.txt",
+      "bytes": 11065,
+      "sha256": "cef927f5f4b49302e9c86d9939603ac1e479d6181db157b54daa975c3d5a4028",
+      "mode": "0o644"
+    },
+    {
+      "path": "tests/test_domains_runtime.py",
+      "bytes": 17588,
+      "sha256": "ee4b9385f8a4c8efb4b9e3ba2744db072e65327b6540fb80a4c6cec133465260",
+      "mode": "0o755"
+    },
+    {
+      "path": "tests/test_inherited_display.py",
+      "bytes": 27500,
+      "sha256": "e5e7e8e870f24f22a3caba9d431fe59914efaa5a46160dfd3fdcaffb83244fcf",
+      "mode": "0o755"
+    },
+    {
+      "path": "tests/test_release.py",
+      "bytes": 16737,
+      "sha256": "190bd1350465d0274fbfeea9f7f204f48d4b4b47dac7656ff79a3d164597683c",
+      "mode": "0o755"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/BOB2-APPLIANCE-POLICY.md",
+      "bytes": 3851,
+      "sha256": "229cbfd516bd70ef7a5a449885c0987232ee562baebdc76d1e8bf9730f384f37",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/BOB2-DOCUMENTATION-DISCOVERY-POLICY.md",
+      "bytes": 4492,
+      "sha256": "f6fd45358234b657ce87a085de25542643ddd183db361b5fa87c937a92098746",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/BOB2-MODE-MAP.json",
+      "bytes": 3677,
+      "sha256": "a8e3bb878faf732885074d9fd35f221393dca03076d608936eae74479404b508",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/BOB2-PRODUCTION-DISPLAY-PLAN.md",
+      "bytes": 5796,
+      "sha256": "61a2637a02031bb3fb4273f959bcdc4392c00bcd3bd4cf7fd34370061d1223de",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/BOB2-RETRIEVAL-DISPLAY-POLICY.md",
+      "bytes": 7327,
+      "sha256": "ff1c87d7eb8cc5fb624b0fa591d7a48abacb9dc5ee8eb8344e0240a50a7bd5b5",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/PAA-CAPABILITIES.json",
+      "bytes": 423,
+      "sha256": "adaef09c9ed25697f7f76b36a03c4a378084c452f90ec985671ab5af221c101b",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/PAA-DOMAIN-POLICY.md",
+      "bytes": 10854,
+      "sha256": "d87055c4d01a133969eae393f523019917a1d9132f809811826962fdbbcdf483",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/PAA-MAINTENANCE-POLICY.md",
+      "bytes": 1246,
+      "sha256": "dae8b481fbfc2d13255b21dfabcaaa53a15a19cdc6e2b00ad3c761761efa4ec3",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/PAA-SAFETY-POLICY.md",
+      "bytes": 5285,
+      "sha256": "b9bd528626985a964d7240cbe422c84aa1f1bd52c9c2f9b1e9cd6264038daf39",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/bob-v2.env",
+      "bytes": 643,
+      "sha256": "23410d86a16239ed16b03b4097d6dd744706e9f0ea2dca4cdd7c34b62977463d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/bob-v2.env.example",
+      "bytes": 635,
+      "sha256": "4f1dba9d0eeb7264cb457a53eba7271a9da436ddf4fa06b459f17da339cf4a8a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/custom_modes.yaml",
+      "bytes": 52730,
+      "sha256": "85c18340bfd902b045bfb69ff50b299c1e6c4c2067512f103a39d02867d31d58",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/hooks/bob2-context.py",
+      "bytes": 4071,
+      "sha256": "a7b44d6323d076ad17eb399fd75ebfd16266e262fbcd3c81d7bb898b5e0df7a8",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/README.md",
+      "bytes": 1469,
+      "sha256": "9abbd33aa387d2508efbcf0ea3cb3b755bb2f75fa6a8e295d3fd860d477ee7ff",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/1-product-scope-and-deployment-choices.md",
+      "bytes": 2372,
+      "sha256": "134edcf0a081dfaa77bf0516433142e5f00e43c81d9b24e105d55599733c0658",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/10-local-database-configuration-and-connectivity.md",
+      "bytes": 2423,
+      "sha256": "66df4e5eb5b2a10a33533163a5aa3edc6f48bc49f79743968b6941e84abdd717",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/11-local-install-planning-analytics-workspace.md",
+      "bytes": 2367,
+      "sha256": "f5f641a19fd937a67500db31ca683ecd6ca71b186819cd83e26da8bf66c2dcc6",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/12-workspace-configuration-and-administration-agent.md",
+      "bytes": 2638,
+      "sha256": "0f334dd5ad000b2e49c5c5c42656eaf1f24ac2bea0427eb2adfcb7fdbca4b74f",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/13-planning-analytics-for-microsoft-excel.md",
+      "bytes": 2559,
+      "sha256": "d7525f028169d067de65afeb673c91c476d821db3201833c1d03724f78f3b6a3",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/14-spreadsheet-services-and-cognos-integration.md",
+      "bytes": 2515,
+      "sha256": "8f9a05baf5dde1f812abaaec46d5bbba4ca690dd33eadaec52c766f46907dfb3",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/15-model-design-dimensions-cubes-and-drivers.md",
+      "bytes": 2363,
+      "sha256": "912298b2084abcdaa8a9cbd94477aaa8f5d3ee7e8abbdfbeb007a5b3d63528d6",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/16-rules-feeders-and-model-correctness.md",
+      "bytes": 2406,
+      "sha256": "f8642402db4ecd879afb5a2734838e6e88b05e18bb84f3a664d349bcc176b4db",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/17-turbointegrator-and-data-integration.md",
+      "bytes": 2518,
+      "sha256": "509f8969d0d7a52b82762148e874602e0fff24ac617921efe7efcc5d66ae4b0d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/18-books-plans-scenarios-and-excel-reporting.md",
+      "bytes": 2453,
+      "sha256": "994e5d3cc234c19cb7054b1a8b4b0a36bfa73d9cbd229d20e4769f384e619c7b",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/19-rest-apis-automation-and-sap.md",
+      "bytes": 2293,
+      "sha256": "ed5a28140fee389779e1cef9a5574f0504e5285e447a18b5e2d928f6633ec75f",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/2-versions-release-lines-and-evidence.md",
+      "bytes": 2316,
+      "sha256": "9bd9fc556299beee909bf362ce94fd6040469e84a2c562a445c55bd2f3401f4b",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/20-security-identity-and-privacy-readiness.md",
+      "bytes": 2619,
+      "sha256": "b9eac8fe6f70e7ad6a7cfd98f552f07564ab57b1de7336b88e1d28023e24543a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/21-backup-restore-and-disaster-recovery.md",
+      "bytes": 2472,
+      "sha256": "f7d8e4acc5dce14f8a8cf424310a23817b3297ce069bde0521ed2368a1d266e0",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/22-operations-capacity-and-performance.md",
+      "bytes": 2491,
+      "sha256": "58ff4a049deaedc56c35cd5636dc2c35321e9da14ec90b4df365a9dddcd00b54",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/23-upgrade-and-migration-strategy.md",
+      "bytes": 2340,
+      "sha256": "5082b75ffc07a617878d781c49194aba974a817b96d67ecd09364d5250b95e96",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/24-new-features-what-to-evaluate-now.md",
+      "bytes": 2274,
+      "sha256": "0cdbd45508363730176af9a17a27c7bc6ee1eae94186fda37dabf4f412794514",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/25-forecasting-and-ai-governance.md",
+      "bytes": 2546,
+      "sha256": "32fc041b4bdb13d1faa646486f620e00e13bed2d2a661f07891541341c36385c",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/26-troubleshooting-by-failure-layer.md",
+      "bytes": 2347,
+      "sha256": "52c68e8bd8cc1a83abaac36c7a27cf3b72a26ecafb5a2c05d98827ed6c7b630e",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/27-languages-community-and-support.md",
+      "bytes": 2418,
+      "sha256": "ef69a9508dc831be7b71de64095820f7bf0841f590b836ddfe0686eb0465869f",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/28-implementation-plan-and-acceptance-gates.md",
+      "bytes": 2480,
+      "sha256": "2631a5ae93c71704986c00d59724a64f0268419733d0a986f94dfbd075a3a606",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/29-manuals-and-knowledge-base-reading-map.md",
+      "bytes": 2370,
+      "sha256": "d602d09315045a3bfd8355e48653a9123cf26282da2d9ad46d826798fc4dbd87",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/3-architecture-and-component-responsibilities.md",
+      "bytes": 2340,
+      "sha256": "f00afd32b997c2c0161f31c2fa35977ccaff045dc6ac66360f233eaac93bbe38",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/4-business-scope-and-operating-ownership.md",
+      "bytes": 2552,
+      "sha256": "5d59936661e52b98805f3cee4ad19dec116f7fb50ab688af2baf4565cf8aed1c",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/5-prerequisites-and-supported-environments.md",
+      "bytes": 2529,
+      "sha256": "4e185c6d10d763e8436ec73cd4e9729439276a443237a05a2da503e3940d5fb4",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/6-planning-analytics-on-cloud-first-access.md",
+      "bytes": 2426,
+      "sha256": "5f191b73d77e608d897973ed7f08eed3b2ccb42a23b76266b1c4e328b22e6c1e",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/7-on-cloud-connectivity-and-administration.md",
+      "bytes": 2433,
+      "sha256": "0f50e99417491e281dc189472a15934e38c99ba8a9ce832be44267ff918240bf",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/8-planning-analytics-as-a-service-onboarding.md",
+      "bytes": 2483,
+      "sha256": "62870134b74b1c71d8100d6be750b1d7f7512fc99c049595f453cdabca479748",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/guide/9-local-install-and-register-the-tm1-data-tier.md",
+      "bytes": 2359,
+      "sha256": "15310f507f5b1d6fa91a5f772ae62816aeb1ca883003f66e3e8972d12c7c0e3f",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/index.json",
+      "bytes": 8794,
+      "sha256": "9c299e76c9021d9fbd5b44acd299758ee80ccbd020073557799af0e02ab23795",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/reference-catalog.md",
+      "bytes": 19938,
+      "sha256": "1d7ac4edd38447558a6509eca49cecb5f94f6b49533908a27a3b5bd2e6554ef7",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/references.json",
+      "bytes": 36540,
+      "sha256": "c6007906167b72d9a758dc85fce5d1bc3c7b8af9c74e5426c20e6edac1236753",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/source-guide.md",
+      "bytes": 89211,
+      "sha256": "7fc3bd2dd544f0e1d499b8c0f5ee1e45fda755f131d65c76e20cdd6589319f34",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/sources/IBM_Planning_Analytics_Comprehensive_Guide.docx",
+      "bytes": 102350,
+      "sha256": "68c2648d95349276d1a65b1b6d4772d61be3c81c5c517ba161c792c31ebd87bd",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/supplemental/w01-product-scope.md",
+      "bytes": 651,
+      "sha256": "99c0b1b68a491a4d29bbadd8f0496c5499510199aeb92267a82d515d695226c6",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/supplemental/w02-tm1-rest-api-overview.md",
+      "bytes": 684,
+      "sha256": "14cc9925037905700eabe7621919da4ee914278a4d844fceb74cf2a9162cb654",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/supplemental/w03-tm1-rest-service-root-and-metadata-contract.md",
+      "bytes": 758,
+      "sha256": "75836ab0f62f6e08f96cba0aa78ca43309054ace033ce455bff316160386d64a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/supplemental/w04-local-2.1.24-release-alignment.md",
+      "bytes": 748,
+      "sha256": "4d7d6a0ff45beb3f7e08616a137939264012885fe89185191b901da40310b604",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/supplemental/w05-local-3.1.11-technical-preview-boundary.md",
+      "bytes": 740,
+      "sha256": "9fc63fa8ebb897c82e7eddd153934d413122cdc8537087819d2aa13a999586f8",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/supplemental/w06-saas-automation-identity.md",
+      "bytes": 755,
+      "sha256": "065cc0a690c21a3256b4fd25f83fc8891eb74d350c2b6d518c814c706aa209b4",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/supplemental/w07-dedicated-cloud-operational-changes.md",
+      "bytes": 705,
+      "sha256": "60a8506fa834a8212df0ec7c42653c0196d7a91aaa6529e8f8b7fc7a957d0fbe",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/supplemental/w08-planning-analytics-on-software-hub-5.3.md",
+      "bytes": 877,
+      "sha256": "06d07d8e8b2409d1c2f488a1d02ef1a2d8a00fe521c17b0734e10eecae95e6a5",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/supplemental/w09-planning-analytics-on-software-hub-5.4.md",
+      "bytes": 765,
+      "sha256": "cab7c59333262e3830365e232aebd509b20f733301f8298c0ef0f52c0acd32ab",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/supplemental/w10-planning-analytics-agent-and-extensions.md",
+      "bytes": 717,
+      "sha256": "92fc9a29a022c11733853fbd3d802e7b9d0e792f68323bd12c362b7d1e90c038",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/supplemental/w11-bob-custom-mode-structure.md",
+      "bytes": 770,
+      "sha256": "6a29cb7fb8cfe76646a2cf302d8cd018106870f3cc00c6a341a1f573e5f6ef96",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-knowledgebase/web-verification.json",
+      "bytes": 6316,
+      "sha256": "937370ad66667b8a1bce2bccf722e3d4cfc7cbc229ce122c3a219129ded5200f",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-profiles/deployment-profile.example.json",
+      "bytes": 701,
+      "sha256": "cd7a60efb3cc62dc978221fa3fd023dc6282df4af36aba9f4e26f121c343d0c4",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/admin-agent.md",
+      "bytes": 2937,
+      "sha256": "e792d63d2aad6e04094e04a58ad29c364d677bdd08c14b9e2ef49bc1ce04824a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/backup-recovery.md",
+      "bytes": 2994,
+      "sha256": "d4a7a0879aafefb0ad454ece22be290c8800a67bdf9986928fd12f812870f766",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/business-planning.md",
+      "bytes": 3078,
+      "sha256": "c8a9d95f784a1d7691c2e5a473310554df27ed15c6d47484225ddd4a607a4b4f",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/certified-containers.md",
+      "bytes": 3212,
+      "sha256": "798cfd63bdd8be9a303f8aacd128effa642e74093bc331494ab2c11cc0756664",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/cloud-onboarding.md",
+      "bytes": 3111,
+      "sha256": "aa2ed6e2d1e6cdf015979863a896f98c088bd39ccfb523e7b709b65b35a2f757",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/deployment-selector.md",
+      "bytes": 3185,
+      "sha256": "e18d3146756c8d3e5f2a8ea145ac564710e447b30a5858231228d508fada5304",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/excel-spreadsheet-services.md",
+      "bytes": 3064,
+      "sha256": "5efc504ee5032325c21142b793fe9ab7d1e14dc4011155b5cfacb30afb7f1e23",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/forecasting-ai.md",
+      "bytes": 3045,
+      "sha256": "5a95ec3634db77c492ad61fe75c2e10592f8ce0c89d06b14a8333180caf7748c",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/local-install.md",
+      "bytes": 3356,
+      "sha256": "588f011a0aafd4fb5e0fcc3bb5f870d467ff3a23f514280412998e0a3c5eb581",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/migration-upgrade.md",
+      "bytes": 3109,
+      "sha256": "274390767dcbef786889f17810e59d6ffd54ab5ad53c80171cdd39f31433aebc",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/performance-diagnostics.md",
+      "bytes": 3003,
+      "sha256": "996a55b460b2765307202165953c89896e49524ea7365e3cdfa23a3cf5f44727",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/rest-automation.md",
+      "bytes": 3123,
+      "sha256": "d1a955e59a933f26a69a49118bc17dac32ba51d76c7651076013513e558ea5c4",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/saas-onboarding.md",
+      "bytes": 3050,
+      "sha256": "cbc1031d7000250062c940a2731c9cf50ded21c5c073c413081513b7877049db",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/sap-connectivity.md",
+      "bytes": 3002,
+      "sha256": "031dc30c6cee728d0d87b0ddc27df253c0bae2111a6588a3bffe0b991d1ca11a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/security-identity.md",
+      "bytes": 2984,
+      "sha256": "4b68e13aa2f91f1ddd5625529f2f84043456ecdfce33c4655ac20ec537f3202a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/support-enablement.md",
+      "bytes": 3064,
+      "sha256": "fc3ed18702e5eeccd0c43aac6134f8db0735349c5ac3011f23d734ed1b8d46cc",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/ti-integration.md",
+      "bytes": 3138,
+      "sha256": "9f0560d7148fd7000e3e6c0e457d999140f142b702e1636a243fbabe9ff6ec37",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/tm1-mdx.md",
+      "bytes": 3027,
+      "sha256": "f17185ff30ec6bfc1c9b472541aa396809fb379dc5251bc755e7b30c1966f9d1",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/tm1-modeling.md",
+      "bytes": 3007,
+      "sha256": "e076b56cbd6a76e836234501a27f6da26e032ad31ab100a404829c816716b7ac",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/tm1-rules-feeders.md",
+      "bytes": 2947,
+      "sha256": "7dfed27dfed1549a87be8e2e09fe72254b7d05cf5e3b290af4344e8786450d40",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-runbooks/workspace-books-plans.md",
+      "bytes": 2984,
+      "sha256": "154d12efbeb74736dbbb32c27bf9cb200e53f7b78ad2c44421c17319f64acc6f",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-templates/README.md",
+      "bytes": 541,
+      "sha256": "2695a13eba0b836c64c7c1362b5f64d8cbeb70c076449b0b17d927e864e55813",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-templates/acceptance-plan.md",
+      "bytes": 620,
+      "sha256": "17083b70aeeae0111e37969936caebe5d45b8c1735ff4c1b720073cf5f11fa20",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-templates/forecast-evaluation.csv",
+      "bytes": 84,
+      "sha256": "fb7091cde9a3381a4bb00e4c3e0ce5a3a15ee1d9578bb830374f70f890098b49",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-templates/incident-record.md",
+      "bytes": 554,
+      "sha256": "a539c3e047375ca6efda344eb849ca846bc1c21c81e9db73864320928e3e17f6",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-templates/model-specification.json",
+      "bytes": 862,
+      "sha256": "c864f3261b41f0374b75af569bffb3a5483b3d5c748b4d8b2d42f66f317ac876",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-templates/reconciliation-source.csv",
+      "bytes": 71,
+      "sha256": "de9b72f70135a24ae9ba1937c16c6bcd01b625f6b2a518337ef0a1d99d549bea",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-templates/reconciliation-target.csv",
+      "bytes": 71,
+      "sha256": "de9b72f70135a24ae9ba1937c16c6bcd01b625f6b2a518337ef0a1d99d549bea",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-templates/source-contract.json",
+      "bytes": 603,
+      "sha256": "189044d9c402fda330ed469bd12b35a7e046c0eb70dd7548e07f5c3c00b27ae6",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-templates/ti-process-contract.md",
+      "bytes": 743,
+      "sha256": "e858ed46f24150b974e472b889d86fe354f9d673c4e4eb11266c580e757f4857",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-templates/tm1s.cfg.example",
+      "bytes": 367,
+      "sha256": "38ba8be78a15a26952c0ca521f5b9d204abed72160d1f362a8866a7e31c59c08",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-templates/upgrade-cutover.md",
+      "bytes": 583,
+      "sha256": "4d733cf90c9ec128320613b29921e7d4a54c70b7eb6a7857e62ac360c528f4bf",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-tools/README.md",
+      "bytes": 4667,
+      "sha256": "153b0749acd9619e06e4410dfc413c6e03c0072e81b9a6d5b78e6c256a9bb569",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/planning-analytics-tools/pa-tool.py",
+      "bytes": 24625,
+      "sha256": "4d8937652678733331dcbd4a9a629b926b0349f5f9be763b5603e1c79fc2e527",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/00-paa-identity.md",
+      "bytes": 2003,
+      "sha256": "e961ca4d747d79e784752cf546bd7aaad4bacb0716dacb44659308d8bfbd2f1a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/01-offering-and-write-gates.md",
+      "bytes": 2246,
+      "sha256": "530146bdc783f9ce5ca6ece1480b617d98e4366457bc08499433a5257ee5128a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/admin-agent.md",
+      "bytes": 2378,
+      "sha256": "755fac40a04c9206d6282f1dbec3d433c2eab0d096d67d6a44d9f13e495aedf8",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/backup-recovery.md",
+      "bytes": 2379,
+      "sha256": "9963c24ee5270771f8783fd213e83c437afffc79f619f3869fd56689c78bf9e5",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/business-planning.md",
+      "bytes": 2386,
+      "sha256": "43de8551ef4cb1b23edfa85d975ce95c29bc5ce115dfb1cc68b470f8331a725f",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/certified-containers.md",
+      "bytes": 2470,
+      "sha256": "562d0cdbadb5b743b7211ee6a359b0a57c6f0c3333eece1f527f6cc0409ffd30",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/cloud-onboarding.md",
+      "bytes": 2400,
+      "sha256": "a224edd3854229878c092bd3780be8a07bc9720ce0c5378d4d923067f4643f63",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/deployment-selector.md",
+      "bytes": 2403,
+      "sha256": "b8ae92108a3058bf02e2a84eeccf4b2d93847a152fdeb9441599a72417cb6de2",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/excel-spreadsheet-services.md",
+      "bytes": 2379,
+      "sha256": "c979b5e63dc5f2135955d0bedb1d35ca85ac306819cf7d7dfb7c327bab1c2f0a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/forecasting-ai.md",
+      "bytes": 2425,
+      "sha256": "a54084051aa5d8e5e7547d0e75835e81c51b317ca266213e50b85a54785dbb48",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/local-install.md",
+      "bytes": 2398,
+      "sha256": "f84aeea59a936571d4f5f87692d1415c6a131851ef7960fa8e8723bb36d235f4",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/migration-upgrade.md",
+      "bytes": 2412,
+      "sha256": "f7dd22e3b75b020f4983db886e018868a3c5ed29eac0b030b44ceab4f4fb5fc0",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/performance-diagnostics.md",
+      "bytes": 2416,
+      "sha256": "7cfc190ae4592ddce87ef49fd90342256f9827985f0841145322e9f153544bab",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/rest-automation.md",
+      "bytes": 2394,
+      "sha256": "9899d4b0ca85cbb6adc11a8467b3ca2512d9df0272693f1a6c47dffa0b27a85f",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/saas-onboarding.md",
+      "bytes": 2367,
+      "sha256": "e42a9cac1f3b97feb3732fc72a252ff02d5e37b7f3a1047d6d66047612562045",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/sap-connectivity.md",
+      "bytes": 2369,
+      "sha256": "58c87349e007cea7e547a6db3d8969485e8d4b67ff0f0401c873d099615ab317",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/security-identity.md",
+      "bytes": 2387,
+      "sha256": "14fb99669500c9c424ee2ab462dd24a649c6e10c21eff1f6aae56871f7f92013",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/support-enablement.md",
+      "bytes": 2374,
+      "sha256": "fb1e440b9bcd5ab5ef194fd36d28ca6edc644db5126012d287618a846742800e",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/ti-integration.md",
+      "bytes": 2420,
+      "sha256": "a18051750289baa8e4c9a298bdfb68e5cf6ebded61e113ab773b4426d4211abc",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/tm1-mdx.md",
+      "bytes": 2378,
+      "sha256": "903a4cad050acb494a4d371085ff314a3e5d5a2e3800b62e18492a1b9fd9e63a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/tm1-modeling.md",
+      "bytes": 2408,
+      "sha256": "e22d460a9658e688158b3fc76ee9e09786c65d688a0244314a435d60553cf4fc",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/tm1-rules-feeders.md",
+      "bytes": 2367,
+      "sha256": "c79ba7fed28eea8873b2b59e8ec42c279ae65f63cf0d762abb1c5422b20c9e0a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules/workspace-books-plans.md",
+      "bytes": 2415,
+      "sha256": "b11490505c6f326e3cd1cd9d8f28041d75ee082daaf704ce9ef8427c9b540ae6",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-advance/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-advance/01-planning-analytics-advance.md",
+      "bytes": 2265,
+      "sha256": "f7d42971e279010ed71ac28503e523e72a1e114cd497402d2d8e44b87f92a916",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-ask/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-ask/01-planning-analytics-ask.md",
+      "bytes": 2254,
+      "sha256": "a02383e6279ad8e5f79d3e467efadb473e9f904f1e3b936b266089bae6de2a58",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-cloud-saas/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-cloud-saas/01-planning-analytics-cloud-saas.md",
+      "bytes": 2229,
+      "sha256": "a8131ff53e6ef77b73ac2c45636a003775b58113b7d77aa89b1d0763f5cbc55c",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-code/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-code/01-planning-analytics-code.md",
+      "bytes": 2274,
+      "sha256": "53cdfa3d8397e67b3cd54e679f7a244d7f6785b784932a812fddfe6d15d970d0",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-container-platform/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-container-platform/01-planning-analytics-container-platform.md",
+      "bytes": 2261,
+      "sha256": "1e12f809db0490ea7a2b7788a2996a8d6dc2f3d40c01954c863c0d7e33c53f0d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-drawio/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-drawio/01-planning-analytics-drawio.md",
+      "bytes": 2243,
+      "sha256": "dfe02a4b2f742615a94e4aefed1f7d3576fead9ed8f570bab01ebb964cf01d1e",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-forecasting-ai/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-forecasting-ai/01-planning-analytics-forecasting-ai.md",
+      "bytes": 2259,
+      "sha256": "49ca858eb3f34f51bbf801df4b53edf58f137c3df3e9e6c77c8adb5d488e23a5",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-general-advance/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-general-advance/01-planning-analytics-general-advance.md",
+      "bytes": 2194,
+      "sha256": "db008e556b823e0dcc662ad62e6f35e25627bab3861e119cd5c9959246ba6941",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-general-ask/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-general-ask/01-planning-analytics-general-ask.md",
+      "bytes": 2218,
+      "sha256": "4178f09a9db41e1b2ee62ea6936af3429a24e110d40e2eb9aa2f5c937ba0baa2",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-general-code/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-general-code/01-planning-analytics-general-code.md",
+      "bytes": 2201,
+      "sha256": "712724c7f7f6f8fa3a8d19ecd61ecff9fe3ae89e3f121738222855c769cad66d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-graphql-dev/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-graphql-dev/01-planning-analytics-graphql-dev.md",
+      "bytes": 2265,
+      "sha256": "971c09bbe5aedc77e4e5bfe164a77e756a01cdeac02576bb4d8a7d7617fa5d77",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-local-platform/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-local-platform/01-planning-analytics-local-platform.md",
+      "bytes": 2236,
+      "sha256": "a91dbc955d37b3cb9a89e0550af2bf160f7f0da1f5425dc77811832fe3934ffb",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-operations-recovery/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-operations-recovery/01-planning-analytics-operations-recovery.md",
+      "bytes": 2237,
+      "sha256": "aefe54f3ff413e160533573b120b23bfa94027e1082a70d67dce92b7c2f3ede3",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-orchestrator/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-orchestrator/01-planning-analytics-orchestrator.md",
+      "bytes": 2256,
+      "sha256": "debc08a728df0f2236dc0f2217cb6a309c66e93d0c0952bace3e5a64f2e35326",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-plan/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-plan/01-planning-analytics-plan.md",
+      "bytes": 2232,
+      "sha256": "aa0a10f6c6416ccebd95c74f6bdbea0a31a4c340fdedb4f46cf48c8c7897197a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-security-governance/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-security-governance/01-planning-analytics-security-governance.md",
+      "bytes": 2237,
+      "sha256": "a3c3025658faa06e3dc89bc219c27d1acd13b5d01a9daf9a63c833c29bd6f971",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-ti-integration/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-ti-integration/01-planning-analytics-ti-integration.md",
+      "bytes": 2240,
+      "sha256": "09844b2c3a5cdec2ce8d3d9480c581c7fd46125529ccecc6fe5406a8c37ed088",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-tm1-modeler/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-tm1-modeler/01-planning-analytics-tm1-modeler.md",
+      "bytes": 2239,
+      "sha256": "06c423571520a60b8530fdab409b581c6872469189bb38d86d436e58ff77f742",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-workspace-excel/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-workspace-excel/01-planning-analytics-workspace-excel.md",
+      "bytes": 2244,
+      "sha256": "0c908b36ec0517382f918a731d3929b04dc71edf295645f218cfb36cfccf5456",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-wxo-agent-architect/00-runtime-and-retrieval.md",
+      "bytes": 2003,
+      "sha256": "c6b3e97ac1e59b0a3730ee6ffb331802306ae9bc232fd508e6b874e0bb59553d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/rules-wxo-agent-architect/01-planning-analytics-wxo-agent-architect.md",
+      "bytes": 2295,
+      "sha256": "48bf4a61ec637333373da4510dbed7b4594499cd269c093358c5541ba0009db8",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/appliance.json",
+      "bytes": 4570,
+      "sha256": "a60ad52cde3b46fa418466ec8b661be90204818fbbe08a1e56a74f81694a07fd",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/auth-timeout.py",
+      "bytes": 865,
+      "sha256": "b4a18fa7a14dc3121bcb80fc0957b6e386c9788aa0bceeb7b99ad38319797355",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/load-env.sh",
+      "bytes": 1172,
+      "sha256": "e58a58f660654ad6d46c1387be042dabad1d77d55d74c0dffeb7b1630a21724c",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/menu.sh",
+      "bytes": 4724,
+      "sha256": "cf86ae3775a15649175d99636b9a6d08387155b4bad9ceee6d10283dc4a75891",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/production_display.py",
+      "bytes": 34672,
+      "sha256": "2e63323c0cd3fbce5f0fdcf6c80b5e1454d0c0af06860e25101a30b07166c1af",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/project_permissions.py",
+      "bytes": 1427,
+      "sha256": "1d1f6ecbea3103ee1d65194095f2eef8f9e89c82cfd6edb34e3da1c829c47f31",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/runtime.py",
+      "bytes": 28329,
+      "sha256": "f65b0f9b82fba916c385aa4d2ec86f76f626c13c1e590731d9946445f7ef20b3",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/terminal_style.py",
+      "bytes": 9771,
+      "sha256": "d92a76bddba90e6fa157211da892f4b4ce5cb8f5768522cc8ca46b4b505f5908",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/ui_preview.py",
+      "bytes": 1834,
+      "sha256": "98bdc8780c8161a9fab0942630fd3534b673719c19a06d34caa75897918f5982",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/settings.json",
+      "bytes": 484,
+      "sha256": "dfec19b7fe758bdad77425b074c6983299e39b2c65a82aaa66b0643cab7ca213",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/README-custom-skills.md",
+      "bytes": 4966,
+      "sha256": "af71fd3b99d6e4aab04efe8b059bc63db73b9c0d660ee770c0086009f44874e8",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/bob-planning-analytics/SKILL.md",
+      "bytes": 2952,
+      "sha256": "ebf109b9ad229a7394e8daaed1515dcafba162155feac7a857507dbb7cc81e22",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/bob-planning-analytics/agents/openai.yaml",
+      "bytes": 160,
+      "sha256": "9c09359214b9e3076483a77f93e82aa6ede8f5eb6ab4ed78e1855a2d62f05117",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/build-mcp-server/SKILL.md",
+      "bytes": 12572,
+      "sha256": "6b3c7fff766e578ef1477ef7d8bce38f0c67477234ec39363634761daeccc165",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/configure-mcp/SKILL.md",
+      "bytes": 12910,
+      "sha256": "7fc41397db6bfcc38d752a65e5573a87d74c9be9788f08345ed3e6f3b7758afc",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/create-mode/SKILL.md",
+      "bytes": 10073,
+      "sha256": "2ad6422d03a662ba3f4e46b959079915176bb6a3735af42ecde7bca2894edfc0",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/create-plan/SKILL.md",
+      "bytes": 7370,
+      "sha256": "79d24cf5fa49bc4946b3d14f395c1449059cd38a39b8a8dbc648c5226fb3ece7",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/create-skill/SKILL.md",
+      "bytes": 12342,
+      "sha256": "e7d778ab21601b01c0b9757ce2933671ad5455de2c9f66f9391c4ffa5d818735",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/git-version-control/SKILL.md",
+      "bytes": 25967,
+      "sha256": "829533f345b1068fcfcdfb9cf80c0ada36da6df46ba3b1abaec4cb3d0ea2fca3",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/mcp-tool-guard/SKILL.md",
+      "bytes": 5596,
+      "sha256": "653987191007ea685fe7562665cfc8e8db6f721c985af013badb212d88027e67",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-admin-agent/SKILL.md",
+      "bytes": 3141,
+      "sha256": "4c6628f23a4dfb223413fd816f90ef8c03a3ec85c3742a08b7823ccbaf4944c7",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-admin-agent/agents/openai.yaml",
+      "bytes": 138,
+      "sha256": "de130ddac262c25156ff9e36820ef89d5b1deac1d92e8b3da57a40a9a7c4951b",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-backup-recovery/SKILL.md",
+      "bytes": 3202,
+      "sha256": "0cd9b3b301b542e6a9bc97fbc2f3858ee5cfb50b8988a653fa7223558ed472bd",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-backup-recovery/agents/openai.yaml",
+      "bytes": 146,
+      "sha256": "be2e9327ec54f3ee813217096515ec6ec591d723ea428e4f6fead72fded63bf3",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-business-planning/SKILL.md",
+      "bytes": 3284,
+      "sha256": "e1d06006128b03d551028820e5b6b51582a79f0ad6671cc2034939ffbd72f19d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-business-planning/agents/openai.yaml",
+      "bytes": 150,
+      "sha256": "b2f465fb4128052be467f3f46da65e9683aa37eb6616461b961d0086f1da452f",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-certified-containers/SKILL.md",
+      "bytes": 3436,
+      "sha256": "55221cb3b8587a43d37a35165d569cdbfa06b2d92ac376bc7de24bc59ac6b252",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-certified-containers/agents/openai.yaml",
+      "bytes": 156,
+      "sha256": "b4872b1653877f0aa8bcdf8151b2a1ceae9b77993e293376285510a288666147",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-cloud-onboarding/SKILL.md",
+      "bytes": 3319,
+      "sha256": "6bc89c80ab0f9390dd60db87f180eeba177d59674a2e662ebdbd31f0d15f1705",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-cloud-onboarding/agents/openai.yaml",
+      "bytes": 148,
+      "sha256": "e9cb4e43ea489c7ebd881ae51a79d75b237ac106000e191ccc7d4a95cdbcf06c",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-deployment-selector/SKILL.md",
+      "bytes": 3406,
+      "sha256": "e92f3d22a8c384790a5e3e17386946823aaacbe018cec277c937bcf0979a417d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-deployment-selector/agents/openai.yaml",
+      "bytes": 154,
+      "sha256": "35085c946758b0d75f2d3f529b4aa68998df59d0f077b0c8c222483d916758d6",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-excel-spreadsheet-services/SKILL.md",
+      "bytes": 3282,
+      "sha256": "710b49ffcacc4b08513a392d2764bc3d58a25e2e5b53f7e0175f283d20ad37cd",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-excel-spreadsheet-services/agents/openai.yaml",
+      "bytes": 168,
+      "sha256": "c593146c730b89cd70d7f2c528ed1b3a73c2425407626e9dc18b96238072a595",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-forecasting-ai/SKILL.md",
+      "bytes": 3269,
+      "sha256": "f557cab384c14c2503c30a47c5138efa6d39d5724f26da4f09e91490f9d5cfaa",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-forecasting-ai/agents/openai.yaml",
+      "bytes": 144,
+      "sha256": "8ceff6f819bad7988d03edd533a4652e5bc446886002dcb665af34d9f7a9184e",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-local-install/SKILL.md",
+      "bytes": 3549,
+      "sha256": "69c9e4699534a8b8e90d4bee493d7346ee930162ecafeaca5a2282886a6ea6b5",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-local-install/agents/openai.yaml",
+      "bytes": 142,
+      "sha256": "7da12934804f9d201cde9ab61fb980919274756e181ea4cf09c3ec3a1187a5ab",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-migration-upgrade/SKILL.md",
+      "bytes": 3318,
+      "sha256": "42fe58065d2fd57cdd1cef5ae129a18bc33cb7bce930cd85237e60138149ea49",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-migration-upgrade/agents/openai.yaml",
+      "bytes": 150,
+      "sha256": "8d8e70d024094d5959665804c9385b7a25b3fec84ad5f52b7a1d77ce3b083760",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-performance-diagnostics/SKILL.md",
+      "bytes": 3226,
+      "sha256": "3effaa80f9e0dce4ae918a7d564b6b5d0a93156356bae341b97a75d676ab516c",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-performance-diagnostics/agents/openai.yaml",
+      "bytes": 162,
+      "sha256": "68a826c9d03966eda7e3fea0ac9e15c2330c931611729dbfc5c2be93b8d9c35e",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-rest-automation/SKILL.md",
+      "bytes": 3321,
+      "sha256": "f0aa2329fd9014942082467828df8e703729c3331807d21e2b0a4cfa35647fa9",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-rest-automation/agents/openai.yaml",
+      "bytes": 146,
+      "sha256": "df19b91e2a438743d3e3957c95aec6d0b61949631079adf39cca92defe6309cd",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-saas-onboarding/SKILL.md",
+      "bytes": 3272,
+      "sha256": "8dd7c892ee7afbc4ee3555075819178278fafcc037c9da532e085534960dbc00",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-saas-onboarding/agents/openai.yaml",
+      "bytes": 146,
+      "sha256": "329a247301fb2781ea5d58a12e82a5d3ba353857cddb40e5d3061294df33930e",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-sap-connectivity/SKILL.md",
+      "bytes": 3205,
+      "sha256": "9f9ae4e6effdb203af857920df4dc4ec07d4e0448e57b4928662357b3228c516",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-sap-connectivity/agents/openai.yaml",
+      "bytes": 148,
+      "sha256": "ea52b9878f0cfc074bd548d8bcd3364f3b026b0c721cb25b054ce902f750dd34",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-security-identity/SKILL.md",
+      "bytes": 3192,
+      "sha256": "394a8bf2e3c33bedce423f41bb962030b8acfb719dd1341f6b9ede2117ca8cdd",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-security-identity/agents/openai.yaml",
+      "bytes": 150,
+      "sha256": "4764e879dda4a9fae3c0a67345f56114d6e2b48bf3ebe413df7a3ac184d7347a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-support-enablement/SKILL.md",
+      "bytes": 3274,
+      "sha256": "0f67bdf7423be3e7e8bf69189067921388b294a2b04dd1892fdbaab03df6e985",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-support-enablement/agents/openai.yaml",
+      "bytes": 152,
+      "sha256": "3abbe0b556b75489c603f09f8e95adb22f9714580be2e79cf39548b10f7607b9",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-ti-integration/SKILL.md",
+      "bytes": 3343,
+      "sha256": "80b616145eac4f0db586dd0d96861d217ce9f7b1d2f3827e8897996e4a594869",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-ti-integration/agents/openai.yaml",
+      "bytes": 144,
+      "sha256": "2a9ad22643a435ec9357c7d16283b1d3ae8d6e29922093f50944e0f29c2dfc11",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-tm1-mdx/SKILL.md",
+      "bytes": 3202,
+      "sha256": "e462f2f9320afebf95c67ee5758eb185460a127fd817c81738856fd2e131a6ba",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-tm1-mdx/agents/openai.yaml",
+      "bytes": 130,
+      "sha256": "d85166204b5bd2e00c42a5ea83cb0dcb4caa82296e44ef6e20a25333e2ad3fe2",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-tm1-modeling/SKILL.md",
+      "bytes": 3198,
+      "sha256": "05fbb5170a9dc03372951b0866379660e99f96bf8ab237d32c513b93cbeb2b1e",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-tm1-modeling/agents/openai.yaml",
+      "bytes": 140,
+      "sha256": "30d15abada789f67152dbb63bedf6abb392f1717aa203fd920e3fc11c28c9426",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-tm1-rules-feeders/SKILL.md",
+      "bytes": 3150,
+      "sha256": "dbfe30682e4a97d28f2d1c7523a4af0ff7448c0bf2846fbbbd5e943cf35da582",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-tm1-rules-feeders/agents/openai.yaml",
+      "bytes": 150,
+      "sha256": "45aa06167fd02855fd51ff553cb662fb492a2dba91650b0fbe842fc1bf498898",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-workspace-books-plans/SKILL.md",
+      "bytes": 3208,
+      "sha256": "5a66602f7a9d8cba08467dcbaf81245c5e09033fbcb80461f6ef2922af19f02d",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/pa-workspace-books-plans/agents/openai.yaml",
+      "bytes": 158,
+      "sha256": "25d5bab7570eec44896d1e02ab80ef0c6d20b3f1f92a9a1eb11419b5c16f5828",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/planning-analytics-knowledgebase/SKILL.md",
+      "bytes": 3046,
+      "sha256": "2e1f636274bc09427ac5a826d6c4e35343972c4a8c68dc1f1cca84e1afe297a4",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/planning-analytics-knowledgebase/agents/openai.yaml",
+      "bytes": 180,
+      "sha256": "0ddb32a2e66e76902d1ae216cd03699a39165bf5dc1b81c38f033b8df24244e9",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.bob/skills/xlsx-insights/SKILL.md",
+      "bytes": 7131,
+      "sha256": "2888ede52bda5cdab659906a262eb1bbcec79c685a46a5f30d621aada1dd001e",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.env",
+      "bytes": 217,
+      "sha256": "ebea8a106e62ccbec08053c2e17673ccbd1ecb6c75bf5e3b03771ae147e43380",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.env.example",
+      "bytes": 539,
+      "sha256": "6148f95afb4999373173c74f212795fd2a68813a458ac6388f016790c4e405a1",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/.gitignore",
+      "bytes": 335,
+      "sha256": "7390a04e46824dc25b4502eae4b0a65da4c3d381c55b1a8d93c1761f6e8acb60",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/AGENTS.md",
+      "bytes": 4152,
+      "sha256": "1421821c04f9aabe3cdf16fb18e529590d117c574e5dc848e6f2d2f560e71c00",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/LICENSE",
+      "bytes": 10875,
+      "sha256": "58355e950ee3019ca632b1ae934c7c5aa1dbc2400312a61d9a079271561c8a26",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/NOTICE.md",
+      "bytes": 702,
+      "sha256": "8e5e05abd348549728c8440a4a3085728effdbcaa980b7edc198415394875dd2",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/README.md",
+      "bytes": 1906,
+      "sha256": "f822881a957e0a6e7c49b779e0f199c3f0036fe2e9a2a5464e93d01fb7e0114a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/bob-auth.sh",
+      "bytes": 7529,
+      "sha256": "83f2b0362d8f187c0bc543030bea4c9b85278027d0c7f293208d7dd72ca7256e",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/bob-filename-version-sync.sh",
+      "bytes": 741,
+      "sha256": "28f7933d20cc9f390487bb3f0a522adf94237cd72231df224be8b2f3b7f038e9",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/bob-planning-analytics-designs/README.md",
+      "bytes": 142,
+      "sha256": "0feedb3fb94efd8c2deed523b5306485a443bd625f2de02e2f05dd24de038957",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/bob-planning-analytics-store/README.md",
+      "bytes": 175,
+      "sha256": "65c5507fb1e415a4a3642acb77677cc036bbab07d8c9bb1b5bc877513f5e308a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/bob-planning-analytics-v2.0.5.sh",
+      "bytes": 415,
+      "sha256": "677b7e659f6c6ef6560c993bded279d60724e78bcb516c4a2d3099e331cdf404",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/bob-shell.sh",
+      "bytes": 3257,
+      "sha256": "3fa88962fd39d7d99503369c30d4a5938e82a96582229f1a426bdfb2af5c68e7",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/bob-version.sh",
+      "bytes": 518,
+      "sha256": "0b3a16e2b3f2e97a413dbda56eddfa09fc57efc0d3db368f33210d7867a2a92a",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/maintenance.sh",
+      "bytes": 246,
+      "sha256": "48b46be3879a07eb6d11dc41793e023fda05fd5694d8a0f8df61dfa00e7d8395",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/paa-self-check.sh",
+      "bytes": 207,
+      "sha256": "0291184f3f578b67d6bfa5cb4a028dbcf91de6adc4c0af71d3a05e5a4d1a1796",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/tls-control.sh",
+      "bytes": 1119,
+      "sha256": "ee7ca12efdd991b5030f3ebde3c62b8dbbe6055ef672818570f97e6e27a319de",
+      "mode": "0o777"
+    },
+    {
+      "path": "use-cases/planning-analytics/xLaunchpad.sh",
+      "bytes": 1125,
+      "sha256": "298a244bcd668ba865a7def3b060e6ff1cc28292c66ca062a506ccb4a17dddb2",
+      "mode": "0o777"
+    },
+    {
+      "path": "xLaunchpad.sh",
+      "bytes": 362,
+      "sha256": "af13b55f576ff1ecbd537f4cad7dd62b16e7458915cb5e19b13603d0d0302501",
+      "mode": "0o755"
+    }
+  ]
+}

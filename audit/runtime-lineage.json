@@ -1,0 +1,73 @@
+{
+  "informational_only": true,
+  "read_by_installer": false,
+  "source": "PAA-1.0.0 full package, Software Hub-derived foundation through BOB2-45.0.0",
+  "files": [
+    {
+      "path": "bob-auth.sh",
+      "source_sha256": "83f2b0362d8f187c0bc543030bea4c9b85278027d0c7f293208d7dd72ca7256e",
+      "release_sha256": "83f2b0362d8f187c0bc543030bea4c9b85278027d0c7f293208d7dd72ca7256e",
+      "identical": true
+    },
+    {
+      "path": "tls-control.sh",
+      "source_sha256": "ee7ca12efdd991b5030f3ebde3c62b8dbbe6055ef672818570f97e6e27a319de",
+      "release_sha256": "ee7ca12efdd991b5030f3ebde3c62b8dbbe6055ef672818570f97e6e27a319de",
+      "identical": true
+    },
+    {
+      "path": ".bob/settings.json",
+      "source_sha256": "dfec19b7fe758bdad77425b074c6983299e39b2c65a82aaa66b0643cab7ca213",
+      "release_sha256": "dfec19b7fe758bdad77425b074c6983299e39b2c65a82aaa66b0643cab7ca213",
+      "identical": true
+    },
+    {
+      "path": ".bob/runtime/bob-v2/menu.sh",
+      "source_sha256": "b9a4554c35ebd4e998bfed9b90b97b68478931b36b89b154209474995cd4164f",
+      "release_sha256": "cf86ae3775a15649175d99636b9a6d08387155b4bad9ceee6d10283dc4a75891",
+      "identical": false
+    },
+    {
+      "path": ".bob/runtime/bob-v2/runtime.py",
+      "source_sha256": "057a0eb6123ee44ebd031d8978fbfe425d8d3a1a8d8b4325a68ff1607323ba4b",
+      "release_sha256": "f65b0f9b82fba916c385aa4d2ec86f76f626c13c1e590731d9946445f7ef20b3",
+      "identical": false
+    },
+    {
+      "path": ".bob/runtime/bob-v2/production_display.py",
+      "source_sha256": "2e63323c0cd3fbce5f0fdcf6c80b5e1454d0c0af06860e25101a30b07166c1af",
+      "release_sha256": "2e63323c0cd3fbce5f0fdcf6c80b5e1454d0c0af06860e25101a30b07166c1af",
+      "identical": true
+    },
+    {
+      "path": ".bob/runtime/bob-v2/terminal_style.py",
+      "source_sha256": "e8fc92ffe90259ab74c8f7b05ee2006e76a68c24c76d481cfe1207f0e49c4096",
+      "release_sha256": "d92a76bddba90e6fa157211da892f4b4ce5cb8f5768522cc8ca46b4b505f5908",
+      "identical": false
+    },
+    {
+      "path": ".bob/runtime/bob-v2/load-env.sh",
+      "source_sha256": "493d5537675d7baec86491099a7d68109c084ce6015e241fe41e862a64e1aaea",
+      "release_sha256": "e58a58f660654ad6d46c1387be042dabad1d77d55d74c0dffeb7b1630a21724c",
+      "identical": false
+    },
+    {
+      "path": ".bob/runtime/bob-v2/auth-timeout.py",
+      "source_sha256": "b4a18fa7a14dc3121bcb80fc0957b6e386c9788aa0bceeb7b99ad38319797355",
+      "release_sha256": "b4a18fa7a14dc3121bcb80fc0957b6e386c9788aa0bceeb7b99ad38319797355",
+      "identical": true
+    },
+    {
+      "path": ".bob/hooks/bob2-context.py",
+      "source_sha256": "1419fe84143cc3513503e965794a3b76d46bf0b8f39bf00ec44d8ea6cb96f150",
+      "release_sha256": "a7b44d6323d076ad17eb399fd75ebfd16266e262fbcd3c81d7bb898b5e0df7a8",
+      "identical": false
+    },
+    {
+      "path": "xLaunchpad.sh",
+      "source_sha256": "647b690902f3285ea4f550a59f958834ce01d079b50b20940633266ca5de2c2f",
+      "release_sha256": "298a244bcd668ba865a7def3b060e6ff1cc28292c66ca062a506ccb4a17dddb2",
+      "identical": false
+    }
+  ]
+}

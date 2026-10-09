@@ -1,0 +1,38 @@
+{
+  "illustrative": true,
+  "cube": "FinanceExample",
+  "dimensions": [
+    "Entity",
+    "Period",
+    "Scenario",
+    "Measure"
+  ],
+  "scenarios": [
+    "Actual",
+    "Budget",
+    "Forecast"
+  ],
+  "measures": {
+    "Units": {
+      "aggregation": "sum"
+    },
+    "Price": {
+      "aggregation": "weighted_or_business_defined"
+    },
+    "Revenue": {
+      "leaf_formula": "Units * Price",
+      "aggregation": "sum"
+    },
+    "Cost": {
+      "aggregation": "sum"
+    },
+    "MarginPercent": {
+      "formula": "(Revenue - Cost) / Revenue",
+      "aggregation": "recompute_from_consolidated_values",
+      "zero_denominator": "explicit_business_policy"
+    }
+  },
+  "security": "Define and test cube/hierarchy/element/cell permissions",
+  "rules_feeders": "Validate native syntax and sparse dependencies on target TM1 build",
+  "production_ready": false
+}

@@ -1,0 +1,13 @@
+[36m+--------------------------------------------------------------------------------+(B[m
+[36m|(B[m [1m[34mIBM Bob Planning Analytics Appliance (PAA)                                    (B[m [36m|(B[m
+[36m|(B[m [1m[35mThis is IBM Bob, Designed with IBM Planning Analytics Intelligence            (B[m [36m|(B[m
+[36m+--------------------------------------------------------------------------------+(B[m
+[36m|(B[m No.   [36m|(B[m Action                                        [36m|(B[m Skill ID               [36m|(B[m
+[36m+--------------------------------------------------------------------------------+(B[m
+[36m|(B[m [32m[1m1    (B[m [36m|(B[m Start Interactive PAA Session                 [36m|(B[m User Interactive       [36m|(B[m
+[36m|(B[m [32m[1m2    (B[m [36m|(B[m Ask Planning Analytics / TM1 Question         [36m|(B[m Planning Analytics Ask [36m|(B[m
+[36m|(B[m [32m[1m3    (B[m [36m|(B[m Planning Analytics / TM1 Code Assist          [36m|(B[m Planning Analytics Dev [36m|(B[m
+[36m|(B[m [32m[1m4    (B[m [36m|(B[m Advanced Planning Analytics Design            [36m|(B[m Planning Analytics Adv [36m|(B[m
+[36m|(B[m [33m[1m5    (B[m [36m|(B[m Resume PAA Session (Picks: 1, 2, 3, or 4)     [36m|(B[m Resume latest          [36m|(B[m
+[36m|(B[m [31m[1m0    (B[m [36m|(B[m Quit                                          [36m|(B[m Exit                   [36m|(B[m
+[36m+--------------------------------------------------------------------------------+(B[m

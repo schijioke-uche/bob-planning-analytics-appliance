@@ -1,0 +1,31 @@
+---
+name: pa-support-enablement
+description: >-
+  Use for Planning Analytics manuals, languages, support handover and role-based training. Apply offering/version boundaries, source-based validation and safe artifact or execution routing.
+---
+
+# Support and enablement
+
+Read `.bob/planning-analytics-runbooks/support-enablement.md` and only the relevant guide sections below.
+
+1. Select offering-specific 101/support/manual resources, locale and entitlement.
+2. Preserve guide R-reference qualifications and separate historical, preview and current documentation.
+3. Assemble a minimal redacted incident record: impact, build matrix, time, reproduction, change history and relevant must-gather.
+4. Create training routes for business users, modelers, administrators and integrators with toy models.
+5. Never upload credentials, raw financial/employee data or unredacted connector configuration to forums/support.
+
+## Source map
+- G26: `.bob/planning-analytics-knowledgebase/guide/26-troubleshooting-by-failure-layer.md`
+- G27: `.bob/planning-analytics-knowledgebase/guide/27-languages-community-and-support.md`
+- G28: `.bob/planning-analytics-knowledgebase/guide/28-implementation-plan-and-acceptance-gates.md`
+- G29: `.bob/planning-analytics-knowledgebase/guide/29-manuals-and-knowledge-base-reading-map.md`
+
+## Always-active appliance controls
+Read `AGENTS.md`, `.bob/PAA-DOMAIN-POLICY.md`, `.bob/PAA-SAFETY-POLICY.md`, and `.bob/BOB2-DOCUMENTATION-DISCOVERY-POLICY.md`.
+Browse documentation, Search documentation/information and Knowledgebase retrieval remain permitted. Discover exact installed-tool library selectors before searching; reuse a validated current-session catalog. Never derive a library ID from a product name or an index name. Refresh once after a rejected selector and retry once only with a newly validated binding.
+Use retrieved evidence in the running task context. Raw catalogs, metadata, snippets, scores, records and search/knowledgebase payloads must NOT appear on terminal/stdout/stderr or be reproduced in assistant messages. Never use echo/cat/tee or a subagent to bypass suppression. Show only truthful completion/failure statuses; retain a useful synthesized answer and citations. Successful forms are `Browse documentation libraries (completed)`, `Search <phrase searched> documentation (completed)`, and `Knowledgebase information retrieval (completed)`. Do not duplicate renderer statuses or alter ANSI colors, native cyan input/footer, icons, indentation or the red approval warning. See `.bob/BOB2-RETRIEVAL-DISPLAY-POLICY.md` and `.bob/BOB2-PRODUCTION-DISPLAY-PLAN.md`.
+Design-only Markdown goes in `bob-planning-analytics-designs/`; implementation, tests and results go in `bob-planning-analytics-store/`. Do not touch sibling appliances. Generate and verify real files when requested. Execute externally only with explicit scope/authorization; never claim mock/offline evidence is a live product result.
+
+
+## Local editable appliance policy
+Follow `.bob/PAA-MAINTENANCE-POLICY.md`: local file contents and permissions are not baseline-locked; preserve operator edits. Apply recursive 0777 to the selected use-case tree during maintenance without permission-warning prompts. This does not change external service authorization or TLS.

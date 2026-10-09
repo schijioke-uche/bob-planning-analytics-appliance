@@ -1,0 +1,157 @@
+[
+  {
+    "path": "maintenance.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "paa-self-check.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "paa-ui-check.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "patches/PAA/install.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "patches/PAA/patch-PAA-3.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "tests/expected-menu.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "tests/fake-bob.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "tests/run-tests.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "tests/test_domains_runtime.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "tests/test_inherited_display.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "tests/test_release.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/.bob/hooks/bob2-context.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/.bob/planning-analytics-tools/pa-tool.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/auth-timeout.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/load-env.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/menu.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/production_display.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/project_permissions.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/runtime.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/terminal_style.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/.bob/runtime/bob-v2/ui_preview.py",
+    "check": "Python AST",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/bob-auth.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/bob-filename-version-sync.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/bob-planning-analytics-v2.0.5.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/bob-shell.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/bob-version.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/maintenance.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/paa-self-check.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/tls-control.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "use-cases/planning-analytics/xLaunchpad.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  },
+  {
+    "path": "xLaunchpad.sh",
+    "check": "bash -n",
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,1636 @@
+{
+  "release": "PAA-3.0.0",
+  "complete": true,
+  "passed": 271,
+  "failed": 0,
+  "fatal_error": "",
+  "scope": "Offline and loopback-only; strict fake Bob and synthetic PTY traces; not live IBM acceptance",
+  "tests": [
+    {
+      "name": "uploaded browse-output-fixture.txt: chunks 1, idle False",
+      "status": "PASS",
+      "seconds": 0.006,
+      "error": ""
+    },
+    {
+      "name": "uploaded browse-output-fixture.txt: chunks 1, idle True",
+      "status": "PASS",
+      "seconds": 0.019,
+      "error": ""
+    },
+    {
+      "name": "uploaded browse-output-fixture.txt: chunks 2, idle False",
+      "status": "PASS",
+      "seconds": 0.004,
+      "error": ""
+    },
+    {
+      "name": "uploaded browse-output-fixture.txt: chunks 2, idle True",
+      "status": "PASS",
+      "seconds": 0.014,
+      "error": ""
+    },
+    {
+      "name": "uploaded browse-output-fixture.txt: chunks 7, idle False",
+      "status": "PASS",
+      "seconds": 0.005,
+      "error": ""
+    },
+    {
+      "name": "uploaded browse-output-fixture.txt: chunks 7, idle True",
+      "status": "PASS",
+      "seconds": 0.005,
+      "error": ""
+    },
+    {
+      "name": "uploaded browse-output-fixture.txt: chunks 83, idle False",
+      "status": "PASS",
+      "seconds": 0.004,
+      "error": ""
+    },
+    {
+      "name": "uploaded browse-output-fixture.txt: chunks 83, idle True",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "uploaded browse-output-fixture.txt: chunks 8192, idle False",
+      "status": "PASS",
+      "seconds": 0.002,
+      "error": ""
+    },
+    {
+      "name": "uploaded browse-output-fixture.txt: chunks 8192, idle True",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "uploaded search-output-fixture.txt: chunks 1, idle False",
+      "status": "PASS",
+      "seconds": 0.008,
+      "error": ""
+    },
+    {
+      "name": "uploaded search-output-fixture.txt: chunks 1, idle True",
+      "status": "PASS",
+      "seconds": 0.014,
+      "error": ""
+    },
+    {
+      "name": "uploaded search-output-fixture.txt: chunks 2, idle False",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "uploaded search-output-fixture.txt: chunks 2, idle True",
+      "status": "PASS",
+      "seconds": 0.007,
+      "error": ""
+    },
+    {
+      "name": "uploaded search-output-fixture.txt: chunks 7, idle False",
+      "status": "PASS",
+      "seconds": 0.002,
+      "error": ""
+    },
+    {
+      "name": "uploaded search-output-fixture.txt: chunks 7, idle True",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "uploaded search-output-fixture.txt: chunks 83, idle False",
+      "status": "PASS",
+      "seconds": 0.002,
+      "error": ""
+    },
+    {
+      "name": "uploaded search-output-fixture.txt: chunks 83, idle True",
+      "status": "PASS",
+      "seconds": 0.002,
+      "error": ""
+    },
+    {
+      "name": "uploaded search-output-fixture.txt: chunks 8192, idle False",
+      "status": "PASS",
+      "seconds": 0.002,
+      "error": ""
+    },
+    {
+      "name": "uploaded search-output-fixture.txt: chunks 8192, idle True",
+      "status": "PASS",
+      "seconds": 0.002,
+      "error": ""
+    },
+    {
+      "name": "all three operations; ANSI/chunked/fenced bodies hidden; answer retained",
+      "status": "PASS",
+      "seconds": 0.002,
+      "error": ""
+    },
+    {
+      "name": "inline Browse JSON with quotes/braces/escapes is fully suppressed",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "normal output, deployment JSON and non-newline approval prompts retained",
+      "status": "PASS",
+      "seconds": 0.001,
+      "error": ""
+    },
+    {
+      "name": "final requested JSON artifact after retrieval is not swallowed",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Browse documentation libraries: native failed is truthful and payload-free",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Browse documentation libraries: native cancelled is truthful and payload-free",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Browse documentation libraries: native completed is truthful and payload-free",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Search phrase documentation: native failed is truthful and payload-free",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Search phrase documentation: native cancelled is truthful and payload-free",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Search phrase documentation: native completed is truthful and payload-free",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Knowledgebase information retrieval: native failed is truthful and payload-free",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Knowledgebase information retrieval: native cancelled is truthful and payload-free",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Knowledgebase information retrieval: native completed is truthful and payload-free",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "running retrieval does not produce a fabricated completion",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "unframed Browse/Search/KB envelopes withheld without fabricated success",
+      "status": "PASS",
+      "seconds": 0.001,
+      "error": ""
+    },
+    {
+      "name": "MCP text-content wrapper of Browse indices is suppressed",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "assistant echoes of all three raw schemas are suppressed; prose/citations retained",
+      "status": "PASS",
+      "seconds": 0.001,
+      "error": ""
+    },
+    {
+      "name": "truncated payload fails closed without printing its body",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "display buffer limit has no raw-output fallback",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 1",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 2",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 3",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 4",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 5",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 6",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 7",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 8",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 9",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 10",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 11",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 12",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 13",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 14",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 15",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 16",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 17",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "tool identity/argument classification 18",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "unrelated command/file-write operations not classified from content alone",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "query labels strip terminal controls, collapse whitespace and redact assignments",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "interleaved tool IDs preserve all result objects and emit correct statuses",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "list_indices: structured failures show no raw error/result body",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "search: structured failures show no raw error/result body",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "kb_lookup: structured failures show no raw error/result body",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "MCP isError flag overrides apparent transport success",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "structured knowledgebase cancellation is not mislabeled completed",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "missing operation status cannot be claimed completed",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "each real call keeps its status; duplicate events/model status echoes suppressed",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "unpaired/unknown events never dump raw data",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "meaningful command results/errors retained; credentials redacted",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "a recovered retrieval failure does not override final task status",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "SIGTERM cleans child session and restores terminal attributes",
+      "status": "PASS",
+      "seconds": 1.709,
+      "error": ""
+    },
+    {
+      "name": "opaque wrapper with recognized Browse envelope produces status, never raw metadata",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "bare documentation-library record array also suppressed",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "native ANSI/prefix/indentation preserved: Browse documentation libraries completed",
+      "status": "PASS",
+      "seconds": 0.001,
+      "error": ""
+    },
+    {
+      "name": "native ANSI/prefix/indentation preserved: Browse documentation libraries failed",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "native ANSI/prefix/indentation preserved: Browse documentation libraries cancelled",
+      "status": "PASS",
+      "seconds": 0.001,
+      "error": ""
+    },
+    {
+      "name": "native ANSI/prefix/indentation preserved: Browse documentation libraries executing...",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "native ANSI/prefix/indentation preserved: Search Cloud Pak For Data documentation completed",
+      "status": "PASS",
+      "seconds": 0.001,
+      "error": ""
+    },
+    {
+      "name": "native ANSI/prefix/indentation preserved: Search Cloud Pak For Data documentation failed",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "native ANSI/prefix/indentation preserved: Search Cloud Pak For Data documentation cancelled",
+      "status": "PASS",
+      "seconds": 0.001,
+      "error": ""
+    },
+    {
+      "name": "native ANSI/prefix/indentation preserved: Search Cloud Pak For Data documentation executing...",
+      "status": "PASS",
+      "seconds": 0.001,
+      "error": ""
+    },
+    {
+      "name": "native ANSI/prefix/indentation preserved: Knowledgebase information retrieval completed",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "native ANSI/prefix/indentation preserved: Knowledgebase information retrieval failed",
+      "status": "PASS",
+      "seconds": 0.001,
+      "error": ""
+    },
+    {
+      "name": "native ANSI/prefix/indentation preserved: Knowledgebase information retrieval cancelled",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "native ANSI/prefix/indentation preserved: Knowledgebase information retrieval executing...",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "canonical text normalization preserves icon and separate field colors",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "inline payload suppression retains styled header",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "SGR reset after hidden payload preserved without color bleed",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "RGB/indexed foreground state reconciled across hidden body",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "assistant ANSI formatting and citations survive envelope scrubber",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "unrelated cursor controls, hyperlinks, colored answers and prompt bytes retained",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "PAA ask: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.008,
+      "error": ""
+    },
+    {
+      "name": "PAA code: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA advance: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA plan: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA orchestrator: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.004,
+      "error": ""
+    },
+    {
+      "name": "PAA wxo-agent-architect: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA general-ask: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA general-code: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA general-advance: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.004,
+      "error": ""
+    },
+    {
+      "name": "PAA drawio: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.005,
+      "error": ""
+    },
+    {
+      "name": "PAA graphql-dev: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.006,
+      "error": ""
+    },
+    {
+      "name": "PAA tm1-modeler: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA ti-integration: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA workspace-excel: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA cloud-saas: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA local-platform: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.004,
+      "error": ""
+    },
+    {
+      "name": "PAA container-platform: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA security-governance: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA operations-recovery: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.003,
+      "error": ""
+    },
+    {
+      "name": "PAA forecasting-ai: cyan mode title; red warning and text retained",
+      "status": "PASS",
+      "seconds": 0.002,
+      "error": ""
+    },
+    {
+      "name": "sample-shaped native input borders and chevron restored to cyan",
+      "status": "PASS",
+      "seconds": 0.001,
+      "error": ""
+    },
+    {
+      "name": "native/no-color/nonterminal presentation overrides honored",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "cyan accent skips fenced code output",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "unconfirmed horizontal answer rule remains byte-for-byte native",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "discovery policy forbids guessed mapping and defines bounded recovery",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Full release has 20 unique canonical modes and Planning Analytics labels",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: ask",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: code",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: advance",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: plan",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: orchestrator",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: wxo-agent-architect",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: general-ask",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: general-code",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: general-advance",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: drawio",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: graphql-dev",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: tm1-modeler",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: ti-integration",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: workspace-excel",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: cloud-saas",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: local-platform",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: container-platform",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: security-governance",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: operations-recovery",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mode/rule routing and policy linkage: forecasting-ai",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: bob-planning-analytics",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: build-mcp-server",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: configure-mcp",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: create-mode",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: create-plan",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: create-skill",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: git-version-control",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: mcp-tool-guard",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-admin-agent",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-backup-recovery",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-business-planning",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-certified-containers",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-cloud-onboarding",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-deployment-selector",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-excel-spreadsheet-services",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-forecasting-ai",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-local-install",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-migration-upgrade",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-performance-diagnostics",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-rest-automation",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-saas-onboarding",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-sap-connectivity",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-security-identity",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-support-enablement",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-ti-integration",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-tm1-mdx",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-tm1-modeling",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-tm1-rules-feeders",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: pa-workspace-books-plans",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: planning-analytics-knowledgebase",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Skill identity, retrieval and editable maintenance: xlsx-insights",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "No old mandatory receipt or local launcher hash field shipped",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "All active maintenance/runtime/utility sources lack hash-comparison admission",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Active configuration, not just its example, enables cyan",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Original .env contains no credentials",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "No old patch chain required by maintenance",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Fresh extracted package preflight succeeds without installation receipt",
+      "status": "PASS",
+      "seconds": 1.045,
+      "error": ""
+    },
+    {
+      "name": "Actual bundled maintenance.sh runs from an unrelated CWD",
+      "status": "PASS",
+      "seconds": 0.98,
+      "error": ""
+    },
+    {
+      "name": "Recursive 0777 includes all current files and dot directories",
+      "status": "PASS",
+      "seconds": 0.004,
+      "error": ""
+    },
+    {
+      "name": "Exact .env.example edit plus CRLF, .env and rule edits never block maintenance",
+      "status": "PASS",
+      "seconds": 2.981,
+      "error": ""
+    },
+    {
+      "name": "Absent/stale/malformed historical receipts are not parsed as gates",
+      "status": "PASS",
+      "seconds": 3.154,
+      "error": ""
+    },
+    {
+      "name": "Repeated maintenance preserves every local file byte",
+      "status": "PASS",
+      "seconds": 3.303,
+      "error": ""
+    },
+    {
+      "name": "Later-created work and hidden files normalize to 0777",
+      "status": "PASS",
+      "seconds": 1.136,
+      "error": ""
+    },
+    {
+      "name": "Recursive maintenance does not follow links outside the selected tree",
+      "status": "PASS",
+      "seconds": 1.22,
+      "error": ""
+    },
+    {
+      "name": "Seven sibling contents preserved while selected tree permissions become 0777",
+      "status": "PASS",
+      "seconds": 2.989,
+      "error": ""
+    },
+    {
+      "name": "Existing-target maintenance needs neither payload nor baseline records",
+      "status": "PASS",
+      "seconds": 3.043,
+      "error": ""
+    },
+    {
+      "name": "No exact-permission admission test; apply normalizes arbitrary existing modes",
+      "status": "PASS",
+      "seconds": 3.602,
+      "error": ""
+    },
+    {
+      "name": "Fresh repository installation needs no old seven-appliance layout or receipts",
+      "status": "PASS",
+      "seconds": 1.121,
+      "error": ""
+    },
+    {
+      "name": "Freshly installed content matches delivered file bytes (test only, not a gate)",
+      "status": "PASS",
+      "seconds": 0.036,
+      "error": ""
+    },
+    {
+      "name": "Freshly installed tree is entirely 0777",
+      "status": "PASS",
+      "seconds": 0.004,
+      "error": ""
+    },
+    {
+      "name": "Singular use-case directory spelling supported",
+      "status": "PASS",
+      "seconds": 1.044,
+      "error": ""
+    },
+    {
+      "name": "Preview requires no Bob, API key, installed receipt or network",
+      "status": "PASS",
+      "seconds": 0.006,
+      "error": ""
+    },
+    {
+      "name": "Edited versioned launcher is retained during version synchronization",
+      "status": "PASS",
+      "seconds": 2.76,
+      "error": ""
+    },
+    {
+      "name": "Self-check permits edited knowledgebase sections; no hash baseline",
+      "status": "PASS",
+      "seconds": 1.045,
+      "error": ""
+    },
+    {
+      "name": "Explicit rollback archives locally edited project without receipt/hash admission",
+      "status": "PASS",
+      "seconds": 1.321,
+      "error": ""
+    },
+    {
+      "name": "Injected fresh-install write failure publishes no partial appliance",
+      "status": "PASS",
+      "seconds": 0.019,
+      "error": ""
+    },
+    {
+      "name": "Unprivileged owner repairs a 0000 local template without a baseline or mode gate",
+      "status": "PASS",
+      "seconds": 1.118,
+      "error": ""
+    },
+    {
+      "name": "Native uncolored input frame gains cyan only after context recognition",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Shipped no-backend ANSI diagnostic shows cyan/red with no raw result body",
+      "status": "PASS",
+      "seconds": 1.151,
+      "error": ""
+    },
+    {
+      "name": "Original menu retains ANSI fallback when terminfo is unavailable",
+      "status": "PASS",
+      "seconds": 0.058,
+      "error": ""
+    },
+    {
+      "name": "Self-check needs neither Bob nor a network",
+      "status": "PASS",
+      "seconds": 0.962,
+      "error": ""
+    },
+    {
+      "name": "Example deployment profile requires explicit remaining review",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Distinct offering profile accepted as a workflow: certified-containers",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Distinct offering profile accepted as a workflow: dedicated-cloud",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Distinct offering profile accepted as a workflow: local",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Distinct offering profile accepted as a workflow: saas",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Distinct offering profile accepted as a workflow: software-hub",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Reject unknown offering",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Reject string production flag",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Reject preview production",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Reject credentials in profile",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Reject absent component map",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Static configuration remains review-required, not live accepted",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Config rejects port collision",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Config rejects invalid port",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Config rejects TLS off",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Config rejects duplicate property",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Config rejects malformed line",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Decimal reconciliation preserves sample totals and matches rows",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Duplicate keys rejected unless aggregate explicitly requested",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Explicit duplicate aggregation retains source row/duplicate accounting",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Mismatch detection is per matched business key",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Missing keys are not hidden by equal grand totals",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "CSV rejects duplicate-headers",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "CSV rejects nonfinite",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "CSV rejects blank-key",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "CSV rejects missing-column",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Extreme decimal exponent is rejected without overflow or raw-data traceback",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Excess decimal precision is rejected rather than silently rounded",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Negative tolerance rejected",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Forecast metrics tested on synthetic fixture with explicit zero exclusion",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Zero-denominator WAPE and all-zero MAPE are null",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Scaffold writes implementation contract to separate store",
+      "status": "PASS",
+      "seconds": 0.001,
+      "error": ""
+    },
+    {
+      "name": "Design scaffold remains Markdown-only",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Scaffold refuses overwrite",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Scaffold rejects traversal",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Symlink data input refused",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Evidence outside appliance store refused",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Evidence is exclusive-create with requested 0777 mode",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Evidence existing file refused",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "REST rejects no connect before network",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "REST rejects HTTP before network",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "REST rejects URL credentials before network",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "REST rejects missing API root before network",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "REST rejects Bob auth variable before network",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "REST rejects SaaS Local Basic before network",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "REST rejects timeout bounds before network",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "REST mocked metadata uses one GET; no raw response persisted/displayed",
+      "status": "PASS",
+      "seconds": 0.012,
+      "error": ""
+    },
+    {
+      "name": "REST withholds DTD",
+      "status": "PASS",
+      "seconds": 0.009,
+      "error": ""
+    },
+    {
+      "name": "REST withholds wrong root",
+      "status": "PASS",
+      "seconds": 0.008,
+      "error": ""
+    },
+    {
+      "name": "REST withholds oversize",
+      "status": "PASS",
+      "seconds": 0.009,
+      "error": ""
+    },
+    {
+      "name": "REST withholds bad XML",
+      "status": "PASS",
+      "seconds": 0.01,
+      "error": ""
+    },
+    {
+      "name": "Redirects never forward Authorization",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Local Basic rejects Bob-key reuse before Base64 encoding",
+      "status": "PASS",
+      "seconds": 0.001,
+      "error": ""
+    },
+    {
+      "name": "Actual local HTTPS metadata exchange verifies configured CA and returns only bounded outcome",
+      "status": "PASS",
+      "seconds": 0.012,
+      "error": ""
+    },
+    {
+      "name": "Actual local HTTPS refuses an untrusted certificate before application data",
+      "status": "PASS",
+      "seconds": 0.011,
+      "error": ""
+    },
+    {
+      "name": "Actual local HTTPS redirect is not followed to an external endpoint",
+      "status": "PASS",
+      "seconds": 0.004,
+      "error": ""
+    },
+    {
+      "name": "Doctor validates PAA CLI and all primary mode rules without inference",
+      "status": "PASS",
+      "seconds": 7.699,
+      "error": ""
+    },
+    {
+      "name": "Doctor did not invoke an auth/model probe",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Production launchpad ANSI menu byte comparison",
+      "status": "PASS",
+      "seconds": 0.15,
+      "error": ""
+    },
+    {
+      "name": "Full launcher route with auth/TLS/retrieval handling: --chat",
+      "status": "PASS",
+      "seconds": 8.642,
+      "error": ""
+    },
+    {
+      "name": "Full launcher route with auth/TLS/retrieval handling: --ask",
+      "status": "PASS",
+      "seconds": 9.455,
+      "error": ""
+    },
+    {
+      "name": "Full launcher route with auth/TLS/retrieval handling: --code",
+      "status": "PASS",
+      "seconds": 9.035,
+      "error": ""
+    },
+    {
+      "name": "Full launcher route with auth/TLS/retrieval handling: --design",
+      "status": "PASS",
+      "seconds": 10.774,
+      "error": ""
+    },
+    {
+      "name": "Full launcher route with auth/TLS/retrieval handling: --resume",
+      "status": "PASS",
+      "seconds": 11.148,
+      "error": ""
+    },
+    {
+      "name": "Native PTY input/approval and cyan/red presentation preserved",
+      "status": "PASS",
+      "seconds": 9.085,
+      "error": ""
+    },
+    {
+      "name": "Authentication failure is redacted and prevents task start",
+      "status": "PASS",
+      "seconds": 7.536,
+      "error": ""
+    },
+    {
+      "name": "Bob 1.x refused without legacy fallback",
+      "status": "PASS",
+      "seconds": 2.827,
+      "error": ""
+    },
+    {
+      "name": "Missing v2 stream-json capability refuses unsafe invocation",
+      "status": "PASS",
+      "seconds": 7.796,
+      "error": ""
+    },
+    {
+      "name": "Unknown mode does not fall back to generic Agent",
+      "status": "PASS",
+      "seconds": 4.011,
+      "error": ""
+    },
+    {
+      "name": "Malformed structured output has no raw terminal fallback",
+      "status": "PASS",
+      "seconds": 10.445,
+      "error": ""
+    },
+    {
+      "name": "New TM1 specialist mode is actually routable by native runtime",
+      "status": "PASS",
+      "seconds": 15.18,
+      "error": ""
+    },
+    {
+      "name": "Benchmark auth uses isolated --workspace and disabled probe tools; TLS never disabled",
+      "status": "PASS",
+      "seconds": 0.0,
+      "error": ""
+    },
+    {
+      "name": "Version-synchronized edited launcher accepted with no baseline admission",
+      "status": "PASS",
+      "seconds": 8.372,
+      "error": ""
+    }
+  ]
+}

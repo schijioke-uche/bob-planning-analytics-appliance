@@ -1,0 +1,99 @@
+{
+  "review_date": "2026-10-08",
+  "entries": [
+    {
+      "id": "W01",
+      "title": "Product scope",
+      "url": "https://www.ibm.com/products/planning-analytics",
+      "access": "search-extract",
+      "finding": "Planning Analytics is a TM1-based governed planning platform spanning web/Excel experiences, business planning and AI-assisted workflows. Product marketing does not establish entitlement or technical support for an individual architecture.",
+      "related": "G01, G04, R01"
+    },
+    {
+      "id": "W02",
+      "title": "TM1 REST API overview",
+      "url": "https://www.ibm.com/docs/en/planning-analytics/2.1.0?topic=analytics-tm1-rest-api",
+      "access": "search-extract",
+      "finding": "TM1 REST uses OData v4 for model access and modification. Read access and writes are distinct operations; the metadata describes the service model. Do not substitute Workspace or SaaS administration APIs for a TM1 database service.",
+      "related": "G19, R36-R39"
+    },
+    {
+      "id": "W03",
+      "title": "TM1 REST service-root and metadata contract",
+      "url": "https://www.ibm.com/docs/en/planning-analytics/2.1.0?topic=overview-tm1-rest-api-introduction",
+      "access": "search-extract",
+      "finding": "IBM examples append entity paths and $metadata to an explicit service root. Local HTTPPortNumber controls the REST port. Example hosts/ports are illustrative. The packaged probe accepts a user-supplied verified service root, performs GET only and does not infer SaaS routing.",
+      "related": "G10, G19"
+    },
+    {
+      "id": "W04",
+      "title": "Local 2.1.24 release alignment",
+      "url": "https://www.ibm.com/support/pages/ibm-planning-analytics-local-2124-now-available-download-fix-central",
+      "access": "search-extract",
+      "finding": "The notice gives 25 September 2026 as the release date and recommends Workspace, Excel and Spreadsheet Services 2.1.24 with Local 2.1.24. This is a verified reference point, not a hard-coded latest-version selector or compatibility guarantee for every environment.",
+      "related": "G02, G23, R17"
+    },
+    {
+      "id": "W05",
+      "title": "Local 3.1.11 technical-preview boundary",
+      "url": "https://www.ibm.com/support/pages/ibm-planning-analytics-local-technical-preview-3111-available-download-fix-central",
+      "access": "search-extract",
+      "finding": "The 3.1.11 Local technical preview is explicitly without official product support. Its stated pair is TM1 12.6.4 and Workspace 3.1.11. Keep evaluation separate from approved production support and recheck any later support statement.",
+      "related": "G02, G23, R18"
+    },
+    {
+      "id": "W06",
+      "title": "SaaS automation identity",
+      "url": "https://www.ibm.com/support/pages/how-do-i-create-noninteractive-account-planning-analytics-service",
+      "access": "search-extract",
+      "finding": "IBM directs SaaS users to invite an appropriate directory user, grant access and generate that user's API key rather than create a legacy noninteractive account. The exact authorization-header scheme and service endpoint must still be taken from the installed offering's contract.",
+      "related": "G08, G19, R57"
+    },
+    {
+      "id": "W07",
+      "title": "Dedicated-cloud operational changes",
+      "url": "https://www.ibm.com/community/101/ibm-planning-analytics/planning-analytics-on-cloud/",
+      "access": "page-read",
+      "finding": "Cloud 101 announces Rich Tier retirement and Secure Gateway migration to Satellite Connector, and provides component-specific support/must-gather navigation. Do not turn old RDP or gateway instructions into the default onboarding workflow.",
+      "related": "G06-G07, R14"
+    },
+    {
+      "id": "W08",
+      "title": "Planning Analytics on Software Hub 5.3",
+      "url": "https://www.ibm.com/docs/en/software-hub/5.3.x?topic=pa-installing",
+      "access": "search-extract; direct page returned HTTP 403",
+      "finding": "IBM's indexed installation content explicitly identifies Planning Analytics on Software Hub 5.3, instance-administrator tasks, operator/operand projects and release alignment; tethered deployment is a separate supported workflow in that content. Treat it as a version-specific integration path, not the default for SaaS/Local or proof of all installation details.",
+      "related": "G01, G05, G11; added detail beyond guide"
+    },
+    {
+      "id": "W09",
+      "title": "Planning Analytics on Software Hub 5.4",
+      "url": "https://www.ibm.com/docs/en/software-hub/5.4.x?topic=pa-installing",
+      "access": "search-extract",
+      "finding": "The indexed 5.4 installation page describes Planning Analytics service installation and version alignment with the selected Software Hub instance. Use the precise page matching the customer's control plane; never copy a 5.4 service command into a different release by assumption.",
+      "related": "G01, G05; added version-specific navigation"
+    },
+    {
+      "id": "W10",
+      "title": "Planning Analytics Agent and extensions",
+      "url": "https://www.ibm.com/products/planning-analytics/ai",
+      "access": "page-read",
+      "finding": "IBM describes model-aware assistance, forecasting, controlled actions, watsonx Orchestrate workflows and MCP extensibility. This appliance is separate from that product feature. Verify entitlement, release/provider availability, permissions and explicit approval before material writes.",
+      "related": "G25, R84"
+    },
+    {
+      "id": "W11",
+      "title": "Bob custom-mode structure",
+      "url": "https://bob.ibm.com/docs/ide/configuration/custom-modes",
+      "access": "search-extract",
+      "finding": "The documented customModes structure separates unique slugs, display names, roles, instructions and tool groups. Project modes override defaults. The new appliance follows the established user benchmark for command-group syntax and adds explicit MCP access; compatibility still needs installed-Bob acceptance testing.",
+      "related": "appliance implementation reference"
+    }
+  ],
+  "unavailable": [
+    {
+      "url": "https://www.ibm.com/docs/en/planning-analytics/3.1.0?topic=apaas-using-api-key-based-authentication-planning-analytics-as-service-mcsp",
+      "status": "HTTP 403; exact header mapping not inferred"
+    }
+  ]
+}

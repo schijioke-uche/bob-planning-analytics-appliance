@@ -1,0 +1,22 @@
+{
+  "source": "Actual delivered PAA-2 controller on the original full package",
+  "fixture": "Only a harmless comment added to .env.example; mode 0777",
+  "not_user_file_inspection": true,
+  "reproduction": [
+    {
+      "action": "--check",
+      "exit": 2,
+      "output": "PAA-2 error: Managed file differs from PAA baseline: .env.example"
+    },
+    {
+      "action": "--apply",
+      "exit": 2,
+      "output": "PAA-2 error: Managed file differs from PAA baseline: .env.example"
+    },
+    {
+      "action": "--status",
+      "exit": 2,
+      "output": "PAA-2 error: Managed file differs from PAA baseline: .env.example"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "release": "PAA-3.0.0",
+  "format": "New Planning Analytics registry; primary ask/code/advance follow the family convention.",
+  "modes": [
+    {
+      "slug": "ask",
+      "name": "IBM Bob Planning Analytics Ask Appliance",
+      "rule_directory": ".bob/rules-ask"
+    },
+    {
+      "slug": "code",
+      "name": "IBM Bob Planning Analytics Code Appliance",
+      "rule_directory": ".bob/rules-code"
+    },
+    {
+      "slug": "advance",
+      "name": "IBM Bob Planning Analytics Advance Appliance",
+      "rule_directory": ".bob/rules-advance"
+    },
+    {
+      "slug": "plan",
+      "name": "IBM Bob Planning Analytics Plan Appliance",
+      "rule_directory": ".bob/rules-plan"
+    },
+    {
+      "slug": "orchestrator",
+      "name": "IBM Bob Planning Analytics Orchestrator Appliance",
+      "rule_directory": ".bob/rules-orchestrator"
+    },
+    {
+      "slug": "wxo-agent-architect",
+      "name": "IBM Bob Planning Analytics WXO Agent Architect Appliance",
+      "rule_directory": ".bob/rules-wxo-agent-architect"
+    },
+    {
+      "slug": "general-ask",
+      "name": "IBM Bob Planning Analytics General Ask Appliance",
+      "rule_directory": ".bob/rules-general-ask"
+    },
+    {
+      "slug": "general-code",
+      "name": "IBM Bob Planning Analytics General Code Appliance",
+      "rule_directory": ".bob/rules-general-code"
+    },
+    {
+      "slug": "general-advance",
+      "name": "IBM Bob Planning Analytics General Advance Appliance",
+      "rule_directory": ".bob/rules-general-advance"
+    },
+    {
+      "slug": "drawio",
+      "name": "IBM Bob Planning Analytics Draw.io Appliance",
+      "rule_directory": ".bob/rules-drawio"
+    },
+    {
+      "slug": "graphql-dev",
+      "name": "IBM Bob Planning Analytics GraphQL Development Appliance",
+      "rule_directory": ".bob/rules-graphql-dev"
+    },
+    {
+      "slug": "tm1-modeler",
+      "name": "IBM Bob Planning Analytics TM1 Modeler Appliance",
+      "rule_directory": ".bob/rules-tm1-modeler"
+    },
+    {
+      "slug": "ti-integration",
+      "name": "IBM Bob Planning Analytics TI Integration Appliance",
+      "rule_directory": ".bob/rules-ti-integration"
+    },
+    {
+      "slug": "workspace-excel",
+      "name": "IBM Bob Planning Analytics Workspace and Excel Appliance",
+      "rule_directory": ".bob/rules-workspace-excel"
+    },
+    {
+      "slug": "cloud-saas",
+      "name": "IBM Bob Planning Analytics Cloud and SaaS Appliance",
+      "rule_directory": ".bob/rules-cloud-saas"
+    },
+    {
+      "slug": "local-platform",
+      "name": "IBM Bob Planning Analytics Local Platform Appliance",
+      "rule_directory": ".bob/rules-local-platform"
+    },
+    {
+      "slug": "container-platform",
+      "name": "IBM Bob Planning Analytics Container Platform Appliance",
+      "rule_directory": ".bob/rules-container-platform"
+    },
+    {
+      "slug": "security-governance",
+      "name": "IBM Bob Planning Analytics Security and Governance Appliance",
+      "rule_directory": ".bob/rules-security-governance"
+    },
+    {
+      "slug": "operations-recovery",
+      "name": "IBM Bob Planning Analytics Operations and Recovery Appliance",
+      "rule_directory": ".bob/rules-operations-recovery"
+    },
+    {
+      "slug": "forecasting-ai",
+      "name": "IBM Bob Planning Analytics Forecasting and AI Appliance",
+      "rule_directory": ".bob/rules-forecasting-ai"
+    }
+  ],
+  "legacy_environment_aliases": {
+    "planning-analytics-intelligence": "ask",
+    "planning-analytics-code": "code",
+    "planning-analytics-advanced": "advance",
+    "advanced": "advance",
+    "Draw.io": "drawio",
+    "GraphQL Dev": "graphql-dev",
+    "WXO Agent Architect": "wxo-agent-architect"
+  }
+}

@@ -1,0 +1,157 @@
+[
+  {
+    "path": ".bob/skills/bob-planning-analytics/SKILL.md",
+    "name": "bob-planning-analytics",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/build-mcp-server/SKILL.md",
+    "name": "build-mcp-server",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/configure-mcp/SKILL.md",
+    "name": "configure-mcp",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/create-mode/SKILL.md",
+    "name": "create-mode",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/create-plan/SKILL.md",
+    "name": "create-plan",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/create-skill/SKILL.md",
+    "name": "create-skill",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/git-version-control/SKILL.md",
+    "name": "git-version-control",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/mcp-tool-guard/SKILL.md",
+    "name": "mcp-tool-guard",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-admin-agent/SKILL.md",
+    "name": "pa-admin-agent",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-backup-recovery/SKILL.md",
+    "name": "pa-backup-recovery",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-business-planning/SKILL.md",
+    "name": "pa-business-planning",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-certified-containers/SKILL.md",
+    "name": "pa-certified-containers",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-cloud-onboarding/SKILL.md",
+    "name": "pa-cloud-onboarding",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-deployment-selector/SKILL.md",
+    "name": "pa-deployment-selector",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-excel-spreadsheet-services/SKILL.md",
+    "name": "pa-excel-spreadsheet-services",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-forecasting-ai/SKILL.md",
+    "name": "pa-forecasting-ai",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-local-install/SKILL.md",
+    "name": "pa-local-install",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-migration-upgrade/SKILL.md",
+    "name": "pa-migration-upgrade",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-performance-diagnostics/SKILL.md",
+    "name": "pa-performance-diagnostics",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-rest-automation/SKILL.md",
+    "name": "pa-rest-automation",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-saas-onboarding/SKILL.md",
+    "name": "pa-saas-onboarding",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-sap-connectivity/SKILL.md",
+    "name": "pa-sap-connectivity",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-security-identity/SKILL.md",
+    "name": "pa-security-identity",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-support-enablement/SKILL.md",
+    "name": "pa-support-enablement",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-ti-integration/SKILL.md",
+    "name": "pa-ti-integration",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-tm1-mdx/SKILL.md",
+    "name": "pa-tm1-mdx",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-tm1-modeling/SKILL.md",
+    "name": "pa-tm1-modeling",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-tm1-rules-feeders/SKILL.md",
+    "name": "pa-tm1-rules-feeders",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/pa-workspace-books-plans/SKILL.md",
+    "name": "pa-workspace-books-plans",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/planning-analytics-knowledgebase/SKILL.md",
+    "name": "planning-analytics-knowledgebase",
+    "status": "PASS"
+  },
+  {
+    "path": ".bob/skills/xlsx-insights/SKILL.md",
+    "name": "xlsx-insights",
+    "status": "PASS"
+  }
+]

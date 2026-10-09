@@ -1,0 +1,16 @@
+{
+  "release": "PAA-3.0.0",
+  "appliance_files": 241,
+  "modes": 20,
+  "skills": 31,
+  "rules": 63,
+  "runbooks": 21,
+  "templates": 11,
+  "guide_original_sha256": "68c2648d95349276d1a65b1b6d4772d61be3c81c5c517ba161c792c31ebd87bd",
+  "guide_sections": 29,
+  "reference_urls": 90,
+  "syntax_checks": 31,
+  "unchanged_20_mode_role_fields": true,
+  "guide_original_unchanged": true,
+  "admission_hashes": false
+}

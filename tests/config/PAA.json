@@ -1,0 +1,124 @@
+{
+  "code": "PAA",
+  "folder": "planning-analytics",
+  "stem": "planning-analytics",
+  "title": "IBM Bob Planning Analytics Appliance (PAA)",
+  "design": "bob-planning-analytics-designs",
+  "store": "bob-planning-analytics-store",
+  "tools": ".bob/planning-analytics-tools",
+  "knowledgebase": ".bob/planning-analytics-knowledgebase",
+  "modes": {
+    "interactive": "code",
+    "ask": "ask",
+    "code": "code",
+    "advanced": "advance",
+    "resume": "code"
+  },
+  "aliases": {
+    "planning-analytics-intelligence": "ask",
+    "planning-analytics-code": "code",
+    "planning-analytics-advanced": "advance",
+    "advanced": "advance",
+    "Draw.io": "drawio",
+    "GraphQL Dev": "graphql-dev",
+    "WXO Agent Architect": "wxo-agent-architect"
+  },
+  "mode_slugs": [
+    "ask",
+    "code",
+    "advance",
+    "plan",
+    "orchestrator",
+    "wxo-agent-architect",
+    "general-ask",
+    "general-code",
+    "general-advance",
+    "drawio",
+    "graphql-dev",
+    "tm1-modeler",
+    "ti-integration",
+    "workspace-excel",
+    "cloud-saas",
+    "local-platform",
+    "container-platform",
+    "security-governance",
+    "operations-recovery",
+    "forecasting-ai"
+  ],
+  "rule_sources": {
+    "ask": ".bob/rules-ask",
+    "code": ".bob/rules-code",
+    "advance": ".bob/rules-advance",
+    "plan": ".bob/rules-plan",
+    "orchestrator": ".bob/rules-orchestrator",
+    "wxo-agent-architect": ".bob/rules-wxo-agent-architect",
+    "general-ask": ".bob/rules-general-ask",
+    "general-code": ".bob/rules-general-code",
+    "general-advance": ".bob/rules-general-advance",
+    "drawio": ".bob/rules-drawio",
+    "graphql-dev": ".bob/rules-graphql-dev",
+    "tm1-modeler": ".bob/rules-tm1-modeler",
+    "ti-integration": ".bob/rules-ti-integration",
+    "workspace-excel": ".bob/rules-workspace-excel",
+    "cloud-saas": ".bob/rules-cloud-saas",
+    "local-platform": ".bob/rules-local-platform",
+    "container-platform": ".bob/rules-container-platform",
+    "security-governance": ".bob/rules-security-governance",
+    "operations-recovery": ".bob/rules-operations-recovery",
+    "forecasting-ai": ".bob/rules-forecasting-ai"
+  },
+  "menu": {
+    "1": {
+      "action": "Start Interactive PAA Session",
+      "skill": "User Interactive"
+    },
+    "2": {
+      "action": "Ask Planning Analytics / TM1 Question",
+      "skill": "Planning Analytics Ask"
+    },
+    "3": {
+      "action": "Planning Analytics / TM1 Code Assist",
+      "skill": "Planning Analytics Dev"
+    },
+    "4": {
+      "action": "Advanced Planning Analytics Design",
+      "skill": "Planning Analytics Adv"
+    },
+    "5": {
+      "action": "Resume PAA Session (Picks: 1, 2, 3, or 4)",
+      "skill": "Resume latest"
+    }
+  },
+  "mode_names": {
+    "ask": "IBM Bob Planning Analytics Ask Appliance",
+    "code": "IBM Bob Planning Analytics Code Appliance",
+    "advance": "IBM Bob Planning Analytics Advance Appliance",
+    "plan": "IBM Bob Planning Analytics Plan Appliance",
+    "orchestrator": "IBM Bob Planning Analytics Orchestrator Appliance",
+    "wxo-agent-architect": "IBM Bob Planning Analytics WXO Agent Architect Appliance",
+    "general-ask": "IBM Bob Planning Analytics General Ask Appliance",
+    "general-code": "IBM Bob Planning Analytics General Code Appliance",
+    "general-advance": "IBM Bob Planning Analytics General Advance Appliance",
+    "drawio": "IBM Bob Planning Analytics Draw.io Appliance",
+    "graphql-dev": "IBM Bob Planning Analytics GraphQL Development Appliance",
+    "tm1-modeler": "IBM Bob Planning Analytics TM1 Modeler Appliance",
+    "ti-integration": "IBM Bob Planning Analytics TI Integration Appliance",
+    "workspace-excel": "IBM Bob Planning Analytics Workspace and Excel Appliance",
+    "cloud-saas": "IBM Bob Planning Analytics Cloud and SaaS Appliance",
+    "local-platform": "IBM Bob Planning Analytics Local Platform Appliance",
+    "container-platform": "IBM Bob Planning Analytics Container Platform Appliance",
+    "security-governance": "IBM Bob Planning Analytics Security and Governance Appliance",
+    "operations-recovery": "IBM Bob Planning Analytics Operations and Recovery Appliance",
+    "forecasting-ai": "IBM Bob Planning Analytics Forecasting and AI Appliance"
+  },
+  "search_label": "Search IBM Planning Analytics documentation",
+  "presentation": {
+    "release": "BOB2-45.0.0",
+    "run": "structured-retrieval-status",
+    "chat": "native-ansi-cyan-retrieval-filter",
+    "plan": ".bob/BOB2-PRODUCTION-DISPLAY-PLAN.md"
+  },
+  "appliance_release": "PAA-3.0.0",
+  "local_content_checks": false,
+  "permission_policy": "0777"
+}

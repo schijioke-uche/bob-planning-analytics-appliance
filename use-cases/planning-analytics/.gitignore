@@ -1,0 +1,15 @@
+.env
+.bob/bob-v2.env
+.bob/bob-version.env
+.bob/*.lock
+.bob/.locks/
+.bob/patch-backups/
+.bob/patches-applied/PAA-1.json
+__pycache__/
+*.pyc
+*.log
+.bob/planning-analytics-profiles/local*.json
+bob-planning-analytics-store/*
+!bob-planning-analytics-store/README.md
+bob-planning-analytics-designs/*
+!bob-planning-analytics-designs/README.md

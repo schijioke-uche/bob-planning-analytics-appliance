@@ -1,0 +1,18 @@
+{
+  "release": "PAA-3.0.0",
+  "base_runtime": "BOB2-45.0.0",
+  "mode_count": 20,
+  "skill_count": 31,
+  "guide_sections": 29,
+  "guide_references": 90,
+  "offerings": [
+    "dedicated-cloud",
+    "saas",
+    "local",
+    "certified-containers",
+    "software-hub"
+  ],
+  "rule_count": 63,
+  "runbook_count": 21,
+  "notes": "Capabilities are authored code/instructions, not IBM certification or live workload validation."
+}

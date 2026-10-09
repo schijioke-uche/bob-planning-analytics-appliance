@@ -1,0 +1,26 @@
+{
+  "profile_version": 1,
+  "offering": "local",
+  "environment": "nonproduction",
+  "production": false,
+  "provider": "customer-managed",
+  "region": "REVIEW_REQUIRED",
+  "tm1_generation": "11",
+  "tm1_version": "REVIEW_REQUIRED",
+  "components": {
+    "workspace": "REVIEW_REQUIRED",
+    "excel": "REVIEW_REQUIRED",
+    "spreadsheet_services": "REVIEW_REQUIRED"
+  },
+  "identity_model": "REVIEW_REQUIRED",
+  "service_root": "",
+  "support_evidence": {
+    "spcr": "",
+    "conformance": "",
+    "release_notes": ""
+  },
+  "entitlement_confirmed": false,
+  "recovery_tested": false,
+  "approved_change": "",
+  "notes": "Illustrative profile; not a production-supported configuration. No secrets."
+}

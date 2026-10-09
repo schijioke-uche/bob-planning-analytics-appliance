@@ -1,0 +1,3 @@
+# Planning service acceptance contract
+
+Record offering/SKU, support evidence and component builds. Validate ordinary-user sign-in; allowed and denied cube/hierarchy/cell slices; source/accepted/rejected counts; independent totals and ratios; sparse/zero/missing rule cases; restartable TI and explicitly approved chores; a contributor/reviewer cycle; Excel refresh and authorized write-back; bounded API access; representative concurrency; complete isolated restore and key recovery. Record actual evidence, owner, failure handling and sign-off for each test. A successful installation or backup job is not sufficient.

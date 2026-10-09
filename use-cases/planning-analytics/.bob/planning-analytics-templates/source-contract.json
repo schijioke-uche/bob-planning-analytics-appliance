@@ -1,0 +1,20 @@
+{
+  "source_owner": "REVIEW_REQUIRED",
+  "source_system": "REVIEW_REQUIRED",
+  "offering": "REVIEW_REQUIRED",
+  "business_grain": [
+    "Entity",
+    "Period",
+    "Account",
+    "Scenario"
+  ],
+  "value_column": "Amount",
+  "load_semantics": "REVIEW_REQUIRED: replace_slice or increment",
+  "duplicate_key_policy": "reject_unless_explicitly_aggregated",
+  "expected_counts": null,
+  "expected_control_totals": null,
+  "reject_policy": "fail closed with redacted diagnostics",
+  "rerun_idempotency": "REVIEW_REQUIRED",
+  "credential_reference": "REFERENCE_ONLY_NO_SECRET",
+  "schedule_enabled": false
+}

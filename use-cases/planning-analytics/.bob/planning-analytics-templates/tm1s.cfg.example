@@ -1,0 +1,8 @@
+# Illustrative TM1 11 Local fragment, not complete production configuration.
+# Source: supplied guide G10/R37/R38. Identity and certificates still required.
+ServerName=FinanceExample
+DataBaseDirectory=/srv/planning-analytics/models/FinanceExample/data
+LoggingDirectory=/srv/planning-analytics/models/FinanceExample/logs
+PortNumber=12345
+HTTPPortNumber=12354
+UseSSL=T

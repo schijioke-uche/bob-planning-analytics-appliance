@@ -1,0 +1,305 @@
+ Browse documentation libraries (completed)
+ {
+   "indices": [
+     {
+       "name": "docs_api_connect_cloud_service",
+       "description": "IBM API Connect as a Cloud Service documentation. Covers SaaS API management, cloud-hosted gateway, developer portal, and
+ API subscription management."
+     },
+     {
+       "name": "docs_engineering_test_management",
+       "description": "IBM Engineering Test Management documentation. Covers test planning, test execution, defect tracking, and quality management
+  for software engineering teams."
+     },
+     {
+       "name": "docs_engineering_workflow_management",
+       "description": "IBM Engineering Workflow Management documentation. Covers source control, work item tracking, build automation, and agile
+ planning for software development."
+     },
+     {
+       "name": "docs_ibm_api_connect_cloud",
+       "description": "IBM API Connect Cloud documentation. Covers cloud-native API management, gateway policies, analytics, and developer portal
+ on IBM Cloud."
+     },
+     {
+       "name": "docs_ibm_app_configuration",
+       "description": "IBM App Configuration documentation. Covers feature flags, property management, and dynamic configuration for cloud-native
+ applications on IBM Cloud."
+     },
+     {
+       "name": "docs_ibm_cloud_bare_metal_servers",
+       "description": "IBM Cloud Bare Metal Servers documentation. Covers provisioning, networking, storage, and management of dedicated bare metal
+  servers on IBM Cloud."
+     },
+     {
+       "name": "docs_ibm_cloud_block_storage",
+       "description": "IBM Cloud Block Storage documentation. Covers provisioning, attaching, and managing persistent block storage volumes for IBM
+  Cloud virtual servers."
+     },
+     {
+       "name": "docs_ibm_cloud_cli",
+       "description": "IBM Cloud CLI documentation. Covers installation, configuration, and usage of the IBM Cloud command-line interface for
+ managing cloud resources and services."
+     },
+     {
+       "name": "docs_ibm_cloud_code_engine",
+       "description": "IBM Cloud Code Engine documentation. Covers running containerized workloads, batch jobs, and event-driven functions on a
+ fully managed serverless platform."
+     },
+     {
+       "name": "docs_ibm_cloud_container_instances",
+       "description": "IBM Cloud Container Instances documentation. Covers running containers without cluster management on IBM Cloud
+ infrastructure."
+     },
+     {
+       "name": "docs_ibm_cloud_container_registry",
+       "description": "IBM Cloud Container Registry documentation. Covers storing, managing, and scanning Docker container images in a private
+ registry on IBM Cloud."
+     },
+     {
+       "name": "docs_ibm_cloud_database_tools",
+       "description": "IBM Cloud Database Tools documentation. Covers database management utilities and tools available on IBM Cloud for connecting
+  and managing databases."
+     },
+     {
+       "name": "docs_ibm_cloud_databases_for_db2_saas",
+       "description": "IBM Cloud Databases for Db2 SaaS documentation. Covers the fully managed Db2 database service on IBM Cloud including
+ provisioning, scaling, and backup."
+     },
+     {
+       "name": "docs_ibm_cloud_databases_for_elasticsearch",
+       "description": "IBM Cloud Databases for Elasticsearch documentation. Covers the managed Elasticsearch service on IBM Cloud including search,
+  analytics, and index management."
+     },
+     {
+       "name": "docs_ibm_cloud_databases_for_mongodb",
+       "description": "IBM Cloud Databases for MongoDB documentation. Covers the managed MongoDB service on IBM Cloud including provisioning,
+ replication, and operations."
+     },
+     {
+       "name": "docs_ibm_cloud_databases_for_mysql",
+       "description": "IBM Cloud Databases for MySQL documentation. Covers the managed MySQL service on IBM Cloud including high availability,
+ backups, and connection management."
+     },
+     {
+       "name": "docs_ibm_cloud_databases_overview",
+       "description": "IBM Cloud Databases overview documentation. Covers the IBM Cloud managed database portfolio including supported engines,
+ shared responsibilities, and getting started guides."
+     },
+     {
+       "name": "docs_ibm_cloud_iam",
+       "description": "IBM Cloud Identity and Access Management documentation. Covers users, access groups, service IDs, API keys, trusted
+ profiles, and IAM policies."
+     },
+     {
+       "name": "docs_api_connect",
+       "description": "IBM API Connect documentation. Covers API lifecycle management, gateway configuration, developer portal, OAuth security, and
+  publishing APIs."
+     },
+     {
+       "name": "docs_ibm_cloud_databases_for_postgresql",
+       "description": "IBM Cloud Databases for PostgreSQL documentation. Covers the managed PostgreSQL service on IBM Cloud including extensions,
+ scaling, and replication."
+     },
+     {
+       "name": "docs_ibm_cloud_kubernetes_service",
+       "description": "IBM Cloud Kubernetes Service documentation. Covers managed Kubernetes clusters, worker nodes, networking, storage, and
+ application deployment on IBM Cloud."
+     },
+     {
+       "name": "docs_ibm_cloud_databases_for_redis",
+       "description": "IBM Cloud Databases for Redis documentation. Covers the managed Redis service on IBM Cloud including caching, persistence,
+ clustering, and Pub/Sub."
+     },
+     {
+       "name": "docs_ibm_cloud_satellite",
+       "description": "IBM Cloud Satellite documentation. Covers deploying IBM Cloud services on-premises, at the edge, or in other clouds using
+ Satellite locations."
+     },
+     {
+       "name": "docs_ibm_cloud_logs",
+       "description": "IBM Cloud Logs documentation. Covers log ingestion, querying, alerting, and analysis for applications and services running
+ on IBM Cloud."
+     },
+     {
+       "name": "docs_qradar_security_intelligence_platform",
+       "description": "IBM QRadar Security Intelligence Platform documentation. Covers SIEM, log management, network activity monitoring, threat
+ detection, and compliance reporting."
+     },
+     {
+       "name": "docs_storage_flashsystem_7000",
+       "description": "IBM FlashSystem 7000 documentation. Covers all-flash storage arrays, data reduction, replication, and storage management for
+  mid-range enterprise workloads."
+     },
+     {
+       "name": "docs_storage_flashsystem_9000",
+       "description": "IBM FlashSystem 9000 documentation. Covers NVMe all-flash storage arrays, data reduction, replication, and storage
+ management for enterprise workloads."
+     },
+     {
+       "name": "docs_z_crypto_discovery_and_inventory",
+       "description": "IBM Z Crypto Discovery and Inventory documentation. Covers discovering and inventorying cryptographic assets on IBM Z
+ systems for compliance and quantum-safe migration planning."
+     },
+     {
+       "name": "docs_security_qradar_suite_log_insights",
+       "description": "IBM QRadar Suite Log Insights documentation. Covers cloud-native log analytics, search, and investigation capabilities
+ within the QRadar Security Suite."
+     },
+     {
+       "name": "docs_security_qradar_suite_siem",
+       "description": "IBM QRadar Suite SIEM documentation. Covers the next-generation cloud-native SIEM including threat detection, investigation
+ workflows, and AI-driven analytics."
+     },
+     {
+       "name": "docs_ibm_watsonx_bi_assistant",
+       "description": "IBM watsonx BI Assistant documentation. Covers AI-powered business intelligence, natural language querying, and automated
+ insight generation for enterprise data."
+     },
+     {
+       "name": "docs_ibm_watsonx_code_assistant",
+       "description": "IBM watsonx Code Assistant documentation. Covers AI-assisted code generation, code explanation, and application
+ modernization using large language models."
+     },
+     {
+       "name": "docs_qradar_network_security",
+       "description": "IBM QRadar Network Security documentation. Covers network threat detection, intrusion prevention, and security policy
+ management for enterprise networks."
+     },
+     {
+       "name": "docs_db2",
+       "description": "IBM Db2 database documentation. Covers SQL, administration, performance tuning, high availability, and Db2 APIs for Linux,
+ UNIX, and Windows."
+     },
+     {
+       "name": "docs_ibm_cloud",
+       "description": "IBM Cloud platform documentation. Covers IBM Cloud services, account management, networking, security, and developer tools
+ across all IBM Cloud offerings."
+     },
+     {
+       "name": "docs_storage_protect",
+       "description": "IBM Storage Protect (formerly Tivoli Storage Manager) documentation. Covers backup, restore, archiving, and disaster
+ recovery for enterprise storage environments."
+     },
+     {
+       "name": "docs_spectrum_control",
+       "description": "IBM Spectrum Control storage resource management documentation. Covers capacity planning, performance monitoring, and
+ reporting for enterprise storage."
+     },
+     {
+       "name": "docs_spectrum_discover",
+       "description": "IBM Spectrum Discover documentation. Covers metadata management, data cataloging, and policy-based data management for
+ unstructured data at scale."
+     },
+     {
+       "name": "docs_spectrum_lsf",
+       "description": "IBM Spectrum LSF (Load Sharing Facility) documentation. Covers workload management, job scheduling, cluster administration,
+ and HPC resource management."
+     },
+     {
+       "name": "docs_red_hat_openshift_for_ibm_z",
+       "description": "Red Hat OpenShift for IBM Z documentation. Covers containerized workloads, Kubernetes orchestration, and cloud-native
+ development on IBM Z (mainframe) infrastructure."
+     },
+     {
+       "name": "docs_verify_identity_access",
+       "description": "IBM Security Verify Access documentation. Covers identity and access management (IAM), SSO, MFA, federation, and policy
+ enforcement for enterprise environments."
+     },
+     {
+       "name": "docs_verify_identity_governance",
+       "description": "IBM Security Verify Governance documentation. Covers identity governance and administration (IGA), access certification,
+ role management, and lifecycle management."
+     },
+     {
+       "name": "docs_security_verify_directory",
+       "description": "IBM Security Verify Directory documentation. Covers LDAP directory services, identity synchronization, and directory server
+ administration."
+     },
+     {
+       "name": "docs_instana_observability",
+       "description": "IBM Instana Observability documentation. Covers automated application performance monitoring (APM), distributed tracing,
+ infrastructure monitoring, and alerting for cloud-native and hybrid environments."
+     },
+     {
+       "name": "docs_turbonomic_arm",
+       "description": "IBM Turbonomic Application Resource Management documentation. Covers AI-driven resource optimization, workload placement,
+ and cost management for hybrid cloud environments."
+     },
+     {
+       "name": "docs_app_connect",
+       "description": "IBM App Connect SaaS documentation. Covers application integration, API management, event-driven architecture, and
+ connecting enterprise applications and data sources."
+     },
+     {
+       "name": "docs_app_connect_professional",
+       "description": "IBM App Connect Professional documentation. Covers advanced integration scenarios, enterprise service bus (ESB), message
+ transformation, and complex routing for enterprise integration."
+     },
+     {
+       "name": "docs_ibm_integration_bus",
+       "description": "IBM Integration Bus (MQ Series) documentation. Covers message broker configuration, message flows, adapters, and enterprise
+ application integration patterns."
+     },
+     {
+       "name": "docs_cloud_pak_for_data",
+       "description": "IBM Cloud Pak for Data documentation. Covers data fabric platform, data virtualization, Watson Studio, Watson Machine
+ Learning, DataStage, and governance on OpenShift."
+     },
+     {
+       "name": "docs_ibm_red_hat_openshift_on_ibm_cloud",
+       "description": "Red Hat OpenShift on IBM Cloud documentation. Covers managed OpenShift clusters, worker nodes, networking, security, and
+ application deployment on IBM Cloud."
+     },
+     {
+       "name": "docs_ibm_mq_appliance",
+       "description": "IBM MQ Appliance documentation. Covers the dedicated hardware appliance for IBM MQ including setup, administration,
+ networking, and high availability."
+     },
+     {
+       "name": "docs_ibm_mq",
+       "description": "IBM MQ documentation. Covers message queuing, queue managers, channels, publish/subscribe messaging, and enterprise
+ messaging for reliable application integration."
+     },
+     {
+       "name": "docs_ibm_watson_knowledge_studio_data",
+       "description": "IBM Watson Knowledge Studio for IBM Cloud Pak for Data documentation. Covers on-premises NLP model training, annotation, and
+  deployment within Cloud Pak for Data."
+     },
+     {
+       "name": "docs_ibm_watson_knowledge_studio",
+       "description": "IBM Watson Knowledge Studio documentation. Covers training custom NLP models for entity extraction and relation detection on
+  domain-specific text."
+     },
+     {
+       "name": "docs_ibm_watson_assistant",
+       "description": "IBM Watson Assistant documentation. Covers building, training, and deploying conversational AI assistants including intents,
+  entities, dialog flows, and integrations."
+     },
+     {
+       "name": "docs_ibm_cloud_secrets_manager",
+       "description": "IBM Cloud Secrets Manager documentation. Covers storing, rotating, and managing secrets, credentials, and certificates for
+ IBM Cloud applications."
+     },
+     {
+       "name": "docs_ibm_watson_overview",
+       "description": "IBM Watson overview documentation. Covers the IBM Watson AI services portfolio including NLP, vision, speech, and machine
+ learning capabilities."
+     },
+     {
+       "name": "docs_storage_scale",
+       "description": "IBM Storage Scale documentation. Covers the GPFS parallel file system, including installation, administration, performance
+ tuning, and cluster management."
+     },
+     {
+       "name": "docs_ibm_watsonx",
+       "description": "Official IBM watsonx SaaS platform documentation. Covers watsonx.ai, watsonx.data, and watsonx.governance including model
+ training, deployment, APIs, and governance features."
+     },
+     {
+       "name": "docs_ibm_watsonx_data",
+       "description": "IBM watsonx.data documentation. Covers the open lakehouse data platform including Presto, Iceberg, data sharing, governance,
+  and hybrid cloud deployment."
+     }
+   ]
+ }
