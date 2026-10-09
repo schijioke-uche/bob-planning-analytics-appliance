@@ -12,8 +12,8 @@ The **PAA appliance** is an IBM Bob–powered agent for IBM Planning Analytics a
 
 ### What PAA Does
 
-- **Model** — TM1 dimensions, hierarchies, cubes, rules, feeders, MDX queries, and governed data model design → saved to `bob-planning-analytics-designs/`
-- **Integrate** — TurboIntegrator (TI) processes, ODBC/REST/SAP source ingestion, chore scheduling, reconciliation → saved to `bob-planning-analytics-store/`
+- **Model** — design integration solution, TM1 dimensions, hierarchies, cubes, rules, feeders, MDX queries, and governed data model design → It will saved it to: `bob-planning-analytics-designs/`
+- **Integrate** — watsonx Orchestrate (WXO), TurboIntegrator (TI) processes, ODBC/REST/SAP source ingestion, chore scheduling, reconciliation → It will saved solution to: `bob-planning-analytics-store/`
 - **Deploy** — Local installation, Cloud/SaaS onboarding, Certified Containers, Software Hub on OpenShift, upgrade and migration
 - **Operate** — Security and identity, Workspace/Excel, REST automation, performance diagnostics, backup/recovery, forecasting and AI governance
 
