@@ -240,7 +240,7 @@ The appliance ships the following PAA-focused skills, loaded automatically when 
 | `pa-tm1-modeling` | Dimensions, hierarchies, cubes, sparse calculations, model governance |
 | `pa-tm1-rules-feeders` | TM1 rules syntax, feeder correctness, consolidation logic |
 | `pa-tm1-mdx` | MDX query construction and validation |
-| `pa-ti-integration` | TurboIntegrator loads, ODBC/REST/SAP, chores, reconciliation |
+| `pa-ti-integration` | watsonx Orchestrate(WXO), TurboIntegrator loads, ODBC/REST/SAP, chores, reconciliation |
 | `pa-rest-automation` | Planning Analytics REST API automation |
 | `pa-security-identity` | Identity, least privilege, group/cell access, audit |
 | `pa-cloud-onboarding` | Cloud / SaaS onboarding and environment setup |
