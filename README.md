@@ -33,12 +33,13 @@ The **PAA appliance** is an IBM Bob–powered agent for IBM Planning Analytics a
 
 ## Getting Started
 
-### Step 1 — Clone / Open the Project
+### Step 1 — Clone the Repository
 
-Open the `use-cases/planning-analytics/` directory in your terminal or IDE (e.g., VS Code with the IBM Bob extension).
+The `main` branch is the only available branch.
 
 ```bash
-cd use-cases/planning-analytics
+git clone https://github.com/IBM/bob-planning-analytics-appliance.git
+cd bob-planning-analytics-appliance/use-cases/planning-analytics
 ```
 
 ### Step 2 — Configure Your Environment
